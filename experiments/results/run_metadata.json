@@ -1,0 +1,20 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.5.4",
+  "pandas": "3.0.6",
+  "scikit_learn": "1.9.1",
+  "scipy": "1.18.1",
+  "xgboost": "3.4.1",
+  "random_state": 42,
+  "n_labeled_years": 74,
+  "labeled_year_range": [
+    1949,
+    2025
+  ],
+  "test_years": [
+    1976,
+    2025
+  ],
+  "n_test_years": 49,
+  "min_train_years": 25
+}

@@ -1,0 +1,3382 @@
+[
+  {
+    "model": "ridge",
+    "year": 1976,
+    "drift_severity": "LOW",
+    "drift_score": 0.7692,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 39.99,
+    "adapted_prediction": null,
+    "original_interval": [
+      39.99,
+      39.99
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:00.678460"
+  },
+  {
+    "model": "ridge",
+    "year": 1977,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.963,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
+    "original_prediction": 24.85,
+    "adapted_prediction": 19.02,
+    "original_interval": [
+      24.85,
+      24.85
+    ],
+    "adapted_interval": [
+      19.02,
+      19.02
+    ],
+    "details": {},
+    "timestamp": "2026-10-11T23:46:00.712018"
+  },
+  {
+    "model": "ridge",
+    "year": 1978,
+    "drift_severity": "LOW",
+    "drift_score": 0.8929,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 49.11,
+    "adapted_prediction": null,
+    "original_interval": [
+      49.11,
+      49.11
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:00.755837"
+  },
+  {
+    "model": "ridge",
+    "year": 1979,
+    "drift_severity": "LOW",
+    "drift_score": 0.7931,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 46.29,
+    "adapted_prediction": null,
+    "original_interval": [
+      46.29,
+      46.29
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:00.795655"
+  },
+  {
+    "model": "ridge",
+    "year": 1980,
+    "drift_severity": "LOW",
+    "drift_score": 0.7667,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 38.09,
+    "adapted_prediction": null,
+    "original_interval": [
+      38.09,
+      38.09
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:00.836217"
+  },
+  {
+    "model": "ridge",
+    "year": 1981,
+    "drift_severity": "LOW",
+    "drift_score": 0.4194,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 22.89,
+    "adapted_prediction": null,
+    "original_interval": [
+      22.89,
+      22.89
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:00.877668"
+  },
+  {
+    "model": "ridge",
+    "year": 1982,
+    "drift_severity": "LOW",
+    "drift_score": 0.5,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 38.77,
+    "adapted_prediction": null,
+    "original_interval": [
+      38.77,
+      38.77
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:00.911092"
+  },
+  {
+    "model": "ridge",
+    "year": 1983,
+    "drift_severity": "LOW",
+    "drift_score": 0.3939,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 28.93,
+    "adapted_prediction": null,
+    "original_interval": [
+      28.93,
+      28.93
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:00.963665"
+  },
+  {
+    "model": "ridge",
+    "year": 1984,
+    "drift_severity": "LOW",
+    "drift_score": 0.5882,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 42.86,
+    "adapted_prediction": null,
+    "original_interval": [
+      42.86,
+      42.86
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:01.002620"
+  },
+  {
+    "model": "ridge",
+    "year": 1985,
+    "drift_severity": "LOW",
+    "drift_score": 0.7143,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 25.62,
+    "adapted_prediction": null,
+    "original_interval": [
+      25.62,
+      25.62
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:01.051097"
+  },
+  {
+    "model": "ridge",
+    "year": 1986,
+    "drift_severity": "LOW",
+    "drift_score": 0.8056,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 36.22,
+    "adapted_prediction": null,
+    "original_interval": [
+      18.73,
+      53.7
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:01.106629"
+  },
+  {
+    "model": "ridge",
+    "year": 1987,
+    "drift_severity": "LOW",
+    "drift_score": 0.3784,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 28.92,
+    "adapted_prediction": null,
+    "original_interval": [
+      11.43,
+      46.4
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:01.154007"
+  },
+  {
+    "model": "ridge",
+    "year": 1988,
+    "drift_severity": "LOW",
+    "drift_score": 0.1842,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 38.32,
+    "adapted_prediction": null,
+    "original_interval": [
+      20.83,
+      55.8
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:01.194686"
+  },
+  {
+    "model": "ridge",
+    "year": 1989,
+    "drift_severity": "LOW",
+    "drift_score": 0.0256,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 31.55,
+    "adapted_prediction": null,
+    "original_interval": [
+      14.06,
+      49.03
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:01.265200"
+  },
+  {
+    "model": "ridge",
+    "year": 1990,
+    "drift_severity": "LOW",
+    "drift_score": 0.725,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 23.02,
+    "adapted_prediction": null,
+    "original_interval": [
+      5.53,
+      40.51
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:01.316644"
+  },
+  {
+    "model": "ridge",
+    "year": 1991,
+    "drift_severity": "LOW",
+    "drift_score": 0.0,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 22.43,
+    "adapted_prediction": null,
+    "original_interval": [
+      4.94,
+      39.91
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:01.372903"
+  },
+  {
+    "model": "ridge",
+    "year": 1992,
+    "drift_severity": "LOW",
+    "drift_score": 0.8333,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 29.8,
+    "adapted_prediction": null,
+    "original_interval": [
+      12.31,
+      47.28
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:01.429995"
+  },
+  {
+    "model": "ridge",
+    "year": 1993,
+    "drift_severity": "LOW",
+    "drift_score": 0.2558,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 29.62,
+    "adapted_prediction": null,
+    "original_interval": [
+      12.14,
+      47.11
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:01.485875"
+  },
+  {
+    "model": "ridge",
+    "year": 1994,
+    "drift_severity": "LOW",
+    "drift_score": 0.4773,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 34.02,
+    "adapted_prediction": null,
+    "original_interval": [
+      16.53,
+      51.51
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:01.545921"
+  },
+  {
+    "model": "ridge",
+    "year": 1995,
+    "drift_severity": "LOW",
+    "drift_score": 0.3333,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 31.12,
+    "adapted_prediction": null,
+    "original_interval": [
+      14.41,
+      47.84
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:01.605305"
+  },
+  {
+    "model": "ridge",
+    "year": 1996,
+    "drift_severity": "LOW",
+    "drift_score": 0.5217,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 17.32,
+    "adapted_prediction": null,
+    "original_interval": [
+      0.6,
+      34.03
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:01.669071"
+  },
+  {
+    "model": "ridge",
+    "year": 1997,
+    "drift_severity": "LOW",
+    "drift_score": 0.0,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 30.06,
+    "adapted_prediction": null,
+    "original_interval": [
+      20.28,
+      39.84
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:01.725243"
+  },
+  {
+    "model": "ridge",
+    "year": 1998,
+    "drift_severity": "LOW",
+    "drift_score": 0.2708,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 19.77,
+    "adapted_prediction": null,
+    "original_interval": [
+      3.06,
+      36.49
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:01.778217"
+  },
+  {
+    "model": "ridge",
+    "year": 1999,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.9388,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
+    "original_prediction": 28.64,
+    "adapted_prediction": 33.77,
+    "original_interval": [
+      7.41,
+      49.86
+    ],
+    "adapted_interval": [
+      12.54,
+      54.99
+    ],
+    "details": {},
+    "timestamp": "2026-10-11T23:46:01.827683"
+  },
+  {
+    "model": "ridge",
+    "year": 2000,
+    "drift_severity": "LOW",
+    "drift_score": 0.72,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 21.87,
+    "adapted_prediction": null,
+    "original_interval": [
+      0.65,
+      43.1
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:01.876191"
+  },
+  {
+    "model": "ridge",
+    "year": 2001,
+    "drift_severity": "LOW",
+    "drift_score": 0.4314,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 33.93,
+    "adapted_prediction": null,
+    "original_interval": [
+      12.7,
+      55.15
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:01.929617"
+  },
+  {
+    "model": "ridge",
+    "year": 2002,
+    "drift_severity": "LOW",
+    "drift_score": 0.1538,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 17.09,
+    "adapted_prediction": null,
+    "original_interval": [
+      0.0,
+      38.31
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:01.984760"
+  },
+  {
+    "model": "ridge",
+    "year": 2003,
+    "drift_severity": "LOW",
+    "drift_score": 0.5472,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 41.7,
+    "adapted_prediction": null,
+    "original_interval": [
+      20.48,
+      62.93
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:02.039919"
+  },
+  {
+    "model": "ridge",
+    "year": 2004,
+    "drift_severity": "LOW",
+    "drift_score": 0.1296,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 29.16,
+    "adapted_prediction": null,
+    "original_interval": [
+      7.93,
+      50.38
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:02.095439"
+  },
+  {
+    "model": "ridge",
+    "year": 2005,
+    "drift_severity": "LOW",
+    "drift_score": 0.8,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 27.07,
+    "adapted_prediction": null,
+    "original_interval": [
+      5.85,
+      48.3
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:02.157253"
+  },
+  {
+    "model": "ridge",
+    "year": 2006,
+    "drift_severity": "LOW",
+    "drift_score": 0.3571,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 33.04,
+    "adapted_prediction": null,
+    "original_interval": [
+      11.82,
+      54.27
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:02.276215"
+  },
+  {
+    "model": "ridge",
+    "year": 2007,
+    "drift_severity": "LOW",
+    "drift_score": 0.5088,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 24.19,
+    "adapted_prediction": null,
+    "original_interval": [
+      2.96,
+      45.41
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:02.340246"
+  },
+  {
+    "model": "ridge",
+    "year": 2008,
+    "drift_severity": "LOW",
+    "drift_score": 0.6897,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 21.93,
+    "adapted_prediction": null,
+    "original_interval": [
+      0.7,
+      43.15
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:02.402314"
+  },
+  {
+    "model": "ridge",
+    "year": 2009,
+    "drift_severity": "LOW",
+    "drift_score": 0.6949,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 28.04,
+    "adapted_prediction": null,
+    "original_interval": [
+      6.82,
+      49.27
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:02.452865"
+  },
+  {
+    "model": "ridge",
+    "year": 2010,
+    "drift_severity": "LOW",
+    "drift_score": 0.5333,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 28.7,
+    "adapted_prediction": null,
+    "original_interval": [
+      7.47,
+      49.93
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:02.516204"
+  },
+  {
+    "model": "ridge",
+    "year": 2011,
+    "drift_severity": "LOW",
+    "drift_score": 0.7869,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 35.85,
+    "adapted_prediction": null,
+    "original_interval": [
+      14.62,
+      57.08
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:02.583376"
+  },
+  {
+    "model": "ridge",
+    "year": 2012,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.9355,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
+    "original_prediction": 32.19,
+    "adapted_prediction": 33.81,
+    "original_interval": [
+      10.97,
+      53.42
+    ],
+    "adapted_interval": [
+      12.58,
+      55.03
+    ],
+    "details": {},
+    "timestamp": "2026-10-11T23:46:02.660559"
+  },
+  {
+    "model": "ridge",
+    "year": 2013,
+    "drift_severity": "LOW",
+    "drift_score": 0.4444,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 31.33,
+    "adapted_prediction": null,
+    "original_interval": [
+      10.1,
+      52.56
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:02.739586"
+  },
+  {
+    "model": "ridge",
+    "year": 2014,
+    "drift_severity": "LOW",
+    "drift_score": 0.8125,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 17.95,
+    "adapted_prediction": null,
+    "original_interval": [
+      0.0,
+      39.17
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:02.806238"
+  },
+  {
+    "model": "ridge",
+    "year": 2015,
+    "drift_severity": "LOW",
+    "drift_score": 0.5538,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 22.98,
+    "adapted_prediction": null,
+    "original_interval": [
+      1.75,
+      44.21
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:02.873890"
+  },
+  {
+    "model": "ridge",
+    "year": 2016,
+    "drift_severity": "LOW",
+    "drift_score": 0.697,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 47.92,
+    "adapted_prediction": null,
+    "original_interval": [
+      26.7,
+      69.15
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:02.941546"
+  },
+  {
+    "model": "ridge",
+    "year": 2017,
+    "drift_severity": "LOW",
+    "drift_score": 0.8358,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 28.27,
+    "adapted_prediction": null,
+    "original_interval": [
+      7.04,
+      49.5
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:03.006337"
+  },
+  {
+    "model": "ridge",
+    "year": 2018,
+    "drift_severity": "LOW",
+    "drift_score": 0.0441,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 30.98,
+    "adapted_prediction": null,
+    "original_interval": [
+      13.15,
+      48.81
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:03.079294"
+  },
+  {
+    "model": "ridge",
+    "year": 2019,
+    "drift_severity": "LOW",
+    "drift_score": 0.3623,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 28.2,
+    "adapted_prediction": null,
+    "original_interval": [
+      11.29,
+      45.11
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:03.144575"
+  },
+  {
+    "model": "ridge",
+    "year": 2020,
+    "drift_severity": "LOW",
+    "drift_score": 0.5143,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 36.17,
+    "adapted_prediction": null,
+    "original_interval": [
+      19.26,
+      53.08
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:03.217275"
+  },
+  {
+    "model": "ridge",
+    "year": 2021,
+    "drift_severity": "LOW",
+    "drift_score": 0.1127,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 31.13,
+    "adapted_prediction": null,
+    "original_interval": [
+      14.22,
+      48.04
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:03.279464"
+  },
+  {
+    "model": "ridge",
+    "year": 2022,
+    "drift_severity": "LOW",
+    "drift_score": 0.6389,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 33.87,
+    "adapted_prediction": null,
+    "original_interval": [
+      16.96,
+      50.79
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:03.358052"
+  },
+  {
+    "model": "ridge",
+    "year": 2023,
+    "drift_severity": "LOW",
+    "drift_score": 0.5342,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 30.12,
+    "adapted_prediction": null,
+    "original_interval": [
+      13.25,
+      46.99
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:03.428389"
+  },
+  {
+    "model": "ridge",
+    "year": 2025,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.9189,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
+    "original_prediction": 33.52,
+    "adapted_prediction": 38.33,
+    "original_interval": [
+      16.65,
+      50.39
+    ],
+    "adapted_interval": [
+      21.46,
+      55.2
+    ],
+    "details": {},
+    "timestamp": "2026-10-11T23:46:03.508728"
+  },
+  {
+    "model": "random_forest",
+    "year": 1976,
+    "drift_severity": "LOW",
+    "drift_score": 0.7692,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 21.37,
+    "adapted_prediction": null,
+    "original_interval": [
+      21.37,
+      21.37
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:04.180967"
+  },
+  {
+    "model": "random_forest",
+    "year": 1977,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.963,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
+    "original_prediction": 21.96,
+    "adapted_prediction": 22.33,
+    "original_interval": [
+      21.96,
+      21.96
+    ],
+    "adapted_interval": [
+      22.33,
+      22.33
+    ],
+    "details": {},
+    "timestamp": "2026-10-11T23:46:04.732188"
+  },
+  {
+    "model": "random_forest",
+    "year": 1978,
+    "drift_severity": "LOW",
+    "drift_score": 0.8929,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 26.48,
+    "adapted_prediction": null,
+    "original_interval": [
+      26.48,
+      26.48
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:05.326514"
+  },
+  {
+    "model": "random_forest",
+    "year": 1979,
+    "drift_severity": "LOW",
+    "drift_score": 0.7931,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 32.07,
+    "adapted_prediction": null,
+    "original_interval": [
+      32.07,
+      32.07
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:05.866106"
+  },
+  {
+    "model": "random_forest",
+    "year": 1980,
+    "drift_severity": "LOW",
+    "drift_score": 0.7667,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 27.89,
+    "adapted_prediction": null,
+    "original_interval": [
+      27.89,
+      27.89
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:06.463901"
+  },
+  {
+    "model": "random_forest",
+    "year": 1981,
+    "drift_severity": "LOW",
+    "drift_score": 0.4194,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 23.15,
+    "adapted_prediction": null,
+    "original_interval": [
+      23.15,
+      23.15
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:07.148967"
+  },
+  {
+    "model": "random_forest",
+    "year": 1982,
+    "drift_severity": "LOW",
+    "drift_score": 0.5,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 32.15,
+    "adapted_prediction": null,
+    "original_interval": [
+      32.15,
+      32.15
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:07.693873"
+  },
+  {
+    "model": "random_forest",
+    "year": 1983,
+    "drift_severity": "LOW",
+    "drift_score": 0.3939,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 27.78,
+    "adapted_prediction": null,
+    "original_interval": [
+      27.78,
+      27.78
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:08.265153"
+  },
+  {
+    "model": "random_forest",
+    "year": 1984,
+    "drift_severity": "LOW",
+    "drift_score": 0.5882,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 34.42,
+    "adapted_prediction": null,
+    "original_interval": [
+      34.42,
+      34.42
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:08.817149"
+  },
+  {
+    "model": "random_forest",
+    "year": 1985,
+    "drift_severity": "LOW",
+    "drift_score": 0.7143,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 27.58,
+    "adapted_prediction": null,
+    "original_interval": [
+      27.58,
+      27.58
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:09.378436"
+  },
+  {
+    "model": "random_forest",
+    "year": 1986,
+    "drift_severity": "LOW",
+    "drift_score": 0.8056,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 27.58,
+    "adapted_prediction": null,
+    "original_interval": [
+      17.84,
+      37.33
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:10.060279"
+  },
+  {
+    "model": "random_forest",
+    "year": 1987,
+    "drift_severity": "LOW",
+    "drift_score": 0.3784,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 28.48,
+    "adapted_prediction": null,
+    "original_interval": [
+      18.74,
+      38.22
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:10.608303"
+  },
+  {
+    "model": "random_forest",
+    "year": 1988,
+    "drift_severity": "LOW",
+    "drift_score": 0.1842,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 30.56,
+    "adapted_prediction": null,
+    "original_interval": [
+      20.82,
+      40.3
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:11.182245"
+  },
+  {
+    "model": "random_forest",
+    "year": 1989,
+    "drift_severity": "LOW",
+    "drift_score": 0.0256,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 26.03,
+    "adapted_prediction": null,
+    "original_interval": [
+      16.29,
+      35.78
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:11.743764"
+  },
+  {
+    "model": "random_forest",
+    "year": 1990,
+    "drift_severity": "LOW",
+    "drift_score": 0.725,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 25.62,
+    "adapted_prediction": null,
+    "original_interval": [
+      15.88,
+      35.37
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:12.364593"
+  },
+  {
+    "model": "random_forest",
+    "year": 1991,
+    "drift_severity": "LOW",
+    "drift_score": 0.0,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 26.18,
+    "adapted_prediction": null,
+    "original_interval": [
+      16.44,
+      35.92
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:12.983794"
+  },
+  {
+    "model": "random_forest",
+    "year": 1992,
+    "drift_severity": "LOW",
+    "drift_score": 0.8333,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 25.33,
+    "adapted_prediction": null,
+    "original_interval": [
+      15.58,
+      35.07
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:13.559990"
+  },
+  {
+    "model": "random_forest",
+    "year": 1993,
+    "drift_severity": "LOW",
+    "drift_score": 0.2558,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 33.02,
+    "adapted_prediction": null,
+    "original_interval": [
+      23.27,
+      42.76
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:14.142675"
+  },
+  {
+    "model": "random_forest",
+    "year": 1994,
+    "drift_severity": "LOW",
+    "drift_score": 0.4773,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 26.87,
+    "adapted_prediction": null,
+    "original_interval": [
+      17.12,
+      36.61
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:14.743978"
+  },
+  {
+    "model": "random_forest",
+    "year": 1995,
+    "drift_severity": "LOW",
+    "drift_score": 0.3333,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 26.48,
+    "adapted_prediction": null,
+    "original_interval": [
+      17.15,
+      35.82
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:15.376379"
+  },
+  {
+    "model": "random_forest",
+    "year": 1996,
+    "drift_severity": "LOW",
+    "drift_score": 0.5217,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 29.01,
+    "adapted_prediction": null,
+    "original_interval": [
+      19.68,
+      38.34
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:15.976482"
+  },
+  {
+    "model": "random_forest",
+    "year": 1997,
+    "drift_severity": "LOW",
+    "drift_score": 0.0,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 30.97,
+    "adapted_prediction": null,
+    "original_interval": [
+      21.23,
+      40.71
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:16.553420"
+  },
+  {
+    "model": "random_forest",
+    "year": 1998,
+    "drift_severity": "LOW",
+    "drift_score": 0.2708,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 26.99,
+    "adapted_prediction": null,
+    "original_interval": [
+      14.98,
+      39.0
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:17.098272"
+  },
+  {
+    "model": "random_forest",
+    "year": 1999,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.9388,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
+    "original_prediction": 24.2,
+    "adapted_prediction": 28.18,
+    "original_interval": [
+      10.19,
+      38.21
+    ],
+    "adapted_interval": [
+      14.17,
+      42.19
+    ],
+    "details": {},
+    "timestamp": "2026-10-11T23:46:17.660513"
+  },
+  {
+    "model": "random_forest",
+    "year": 2000,
+    "drift_severity": "LOW",
+    "drift_score": 0.72,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 25.14,
+    "adapted_prediction": null,
+    "original_interval": [
+      9.34,
+      40.94
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:18.245862"
+  },
+  {
+    "model": "random_forest",
+    "year": 2001,
+    "drift_severity": "LOW",
+    "drift_score": 0.4314,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 29.81,
+    "adapted_prediction": null,
+    "original_interval": [
+      14.01,
+      45.61
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:18.830918"
+  },
+  {
+    "model": "random_forest",
+    "year": 2002,
+    "drift_severity": "LOW",
+    "drift_score": 0.1538,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 25.18,
+    "adapted_prediction": null,
+    "original_interval": [
+      9.38,
+      40.98
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:19.439403"
+  },
+  {
+    "model": "random_forest",
+    "year": 2003,
+    "drift_severity": "LOW",
+    "drift_score": 0.5472,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 34.07,
+    "adapted_prediction": null,
+    "original_interval": [
+      18.27,
+      49.87
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:19.993817"
+  },
+  {
+    "model": "random_forest",
+    "year": 2004,
+    "drift_severity": "LOW",
+    "drift_score": 0.1296,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 27.69,
+    "adapted_prediction": null,
+    "original_interval": [
+      11.89,
+      43.49
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:20.659746"
+  },
+  {
+    "model": "random_forest",
+    "year": 2005,
+    "drift_severity": "LOW",
+    "drift_score": 0.8,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 29.3,
+    "adapted_prediction": null,
+    "original_interval": [
+      13.5,
+      45.1
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:21.279912"
+  },
+  {
+    "model": "random_forest",
+    "year": 2006,
+    "drift_severity": "LOW",
+    "drift_score": 0.3571,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 28.33,
+    "adapted_prediction": null,
+    "original_interval": [
+      12.53,
+      44.14
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:21.843216"
+  },
+  {
+    "model": "random_forest",
+    "year": 2007,
+    "drift_severity": "LOW",
+    "drift_score": 0.5088,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 33.12,
+    "adapted_prediction": null,
+    "original_interval": [
+      17.32,
+      48.92
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:22.426564"
+  },
+  {
+    "model": "random_forest",
+    "year": 2008,
+    "drift_severity": "LOW",
+    "drift_score": 0.6897,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 27.47,
+    "adapted_prediction": null,
+    "original_interval": [
+      11.34,
+      43.59
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:22.976941"
+  },
+  {
+    "model": "random_forest",
+    "year": 2009,
+    "drift_severity": "LOW",
+    "drift_score": 0.6949,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 30.94,
+    "adapted_prediction": null,
+    "original_interval": [
+      14.81,
+      47.06
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:23.590792"
+  },
+  {
+    "model": "random_forest",
+    "year": 2010,
+    "drift_severity": "LOW",
+    "drift_score": 0.5333,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 31.65,
+    "adapted_prediction": null,
+    "original_interval": [
+      15.53,
+      47.77
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:24.247756"
+  },
+  {
+    "model": "random_forest",
+    "year": 2011,
+    "drift_severity": "LOW",
+    "drift_score": 0.7869,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 26.72,
+    "adapted_prediction": null,
+    "original_interval": [
+      10.6,
+      42.84
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:24.875730"
+  },
+  {
+    "model": "random_forest",
+    "year": 2012,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.9355,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
+    "original_prediction": 31.9,
+    "adapted_prediction": 31.92,
+    "original_interval": [
+      15.78,
+      48.02
+    ],
+    "adapted_interval": [
+      15.79,
+      48.04
+    ],
+    "details": {},
+    "timestamp": "2026-10-11T23:46:25.489853"
+  },
+  {
+    "model": "random_forest",
+    "year": 2013,
+    "drift_severity": "LOW",
+    "drift_score": 0.4444,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 31.45,
+    "adapted_prediction": null,
+    "original_interval": [
+      15.33,
+      47.57
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:26.109026"
+  },
+  {
+    "model": "random_forest",
+    "year": 2014,
+    "drift_severity": "LOW",
+    "drift_score": 0.8125,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 25.59,
+    "adapted_prediction": null,
+    "original_interval": [
+      9.24,
+      41.94
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:26.692197"
+  },
+  {
+    "model": "random_forest",
+    "year": 2015,
+    "drift_severity": "LOW",
+    "drift_score": 0.5538,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 30.74,
+    "adapted_prediction": null,
+    "original_interval": [
+      14.39,
+      47.08
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:27.275531"
+  },
+  {
+    "model": "random_forest",
+    "year": 2016,
+    "drift_severity": "LOW",
+    "drift_score": 0.697,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 34.57,
+    "adapted_prediction": null,
+    "original_interval": [
+      18.22,
+      50.91
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:27.916141"
+  },
+  {
+    "model": "random_forest",
+    "year": 2017,
+    "drift_severity": "LOW",
+    "drift_score": 0.8358,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 36.25,
+    "adapted_prediction": null,
+    "original_interval": [
+      19.9,
+      52.6
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:28.592405"
+  },
+  {
+    "model": "random_forest",
+    "year": 2018,
+    "drift_severity": "LOW",
+    "drift_score": 0.0441,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 28.45,
+    "adapted_prediction": null,
+    "original_interval": [
+      12.33,
+      44.57
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:29.227066"
+  },
+  {
+    "model": "random_forest",
+    "year": 2019,
+    "drift_severity": "LOW",
+    "drift_score": 0.3623,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 32.62,
+    "adapted_prediction": null,
+    "original_interval": [
+      16.49,
+      48.74
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:29.825680"
+  },
+  {
+    "model": "random_forest",
+    "year": 2020,
+    "drift_severity": "LOW",
+    "drift_score": 0.5143,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 36.24,
+    "adapted_prediction": null,
+    "original_interval": [
+      20.12,
+      52.36
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:30.474417"
+  },
+  {
+    "model": "random_forest",
+    "year": 2021,
+    "drift_severity": "LOW",
+    "drift_score": 0.1127,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 34.29,
+    "adapted_prediction": null,
+    "original_interval": [
+      18.17,
+      50.41
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:31.091819"
+  },
+  {
+    "model": "random_forest",
+    "year": 2022,
+    "drift_severity": "LOW",
+    "drift_score": 0.6389,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 32.95,
+    "adapted_prediction": null,
+    "original_interval": [
+      16.83,
+      49.07
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:31.711900"
+  },
+  {
+    "model": "random_forest",
+    "year": 2023,
+    "drift_severity": "LOW",
+    "drift_score": 0.5342,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 31.9,
+    "adapted_prediction": null,
+    "original_interval": [
+      15.78,
+      48.03
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:32.336530"
+  },
+  {
+    "model": "random_forest",
+    "year": 2025,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.9189,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
+    "original_prediction": 33.51,
+    "adapted_prediction": 37.11,
+    "original_interval": [
+      17.39,
+      49.63
+    ],
+    "adapted_interval": [
+      20.99,
+      53.23
+    ],
+    "details": {},
+    "timestamp": "2026-10-11T23:46:32.925014"
+  },
+  {
+    "model": "xgboost",
+    "year": 1976,
+    "drift_severity": "LOW",
+    "drift_score": 0.7692,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 19.99,
+    "adapted_prediction": null,
+    "original_interval": [
+      19.99,
+      19.99
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:33.731493"
+  },
+  {
+    "model": "xgboost",
+    "year": 1977,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.963,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
+    "original_prediction": 22.15,
+    "adapted_prediction": 22.99,
+    "original_interval": [
+      22.15,
+      22.15
+    ],
+    "adapted_interval": [
+      22.99,
+      22.99
+    ],
+    "details": {},
+    "timestamp": "2026-10-11T23:46:34.724719"
+  },
+  {
+    "model": "xgboost",
+    "year": 1978,
+    "drift_severity": "LOW",
+    "drift_score": 0.8929,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 25.64,
+    "adapted_prediction": null,
+    "original_interval": [
+      25.64,
+      25.64
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:35.688391"
+  },
+  {
+    "model": "xgboost",
+    "year": 1979,
+    "drift_severity": "LOW",
+    "drift_score": 0.7931,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 35.38,
+    "adapted_prediction": null,
+    "original_interval": [
+      35.38,
+      35.38
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:36.653921"
+  },
+  {
+    "model": "xgboost",
+    "year": 1980,
+    "drift_severity": "LOW",
+    "drift_score": 0.7667,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 28.58,
+    "adapted_prediction": null,
+    "original_interval": [
+      28.58,
+      28.58
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:37.703994"
+  },
+  {
+    "model": "xgboost",
+    "year": 1981,
+    "drift_severity": "LOW",
+    "drift_score": 0.4194,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 25.62,
+    "adapted_prediction": null,
+    "original_interval": [
+      25.62,
+      25.62
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:38.810252"
+  },
+  {
+    "model": "xgboost",
+    "year": 1982,
+    "drift_severity": "LOW",
+    "drift_score": 0.5,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 32.29,
+    "adapted_prediction": null,
+    "original_interval": [
+      32.29,
+      32.29
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:39.820642"
+  },
+  {
+    "model": "xgboost",
+    "year": 1983,
+    "drift_severity": "LOW",
+    "drift_score": 0.3939,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 26.82,
+    "adapted_prediction": null,
+    "original_interval": [
+      26.82,
+      26.82
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:40.818436"
+  },
+  {
+    "model": "xgboost",
+    "year": 1984,
+    "drift_severity": "LOW",
+    "drift_score": 0.5882,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 35.25,
+    "adapted_prediction": null,
+    "original_interval": [
+      35.25,
+      35.25
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:41.924621"
+  },
+  {
+    "model": "xgboost",
+    "year": 1985,
+    "drift_severity": "LOW",
+    "drift_score": 0.7143,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 24.07,
+    "adapted_prediction": null,
+    "original_interval": [
+      24.07,
+      24.07
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:42.932595"
+  },
+  {
+    "model": "xgboost",
+    "year": 1986,
+    "drift_severity": "LOW",
+    "drift_score": 0.8056,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 24.81,
+    "adapted_prediction": null,
+    "original_interval": [
+      15.26,
+      34.36
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:43.917720"
+  },
+  {
+    "model": "xgboost",
+    "year": 1987,
+    "drift_severity": "LOW",
+    "drift_score": 0.3784,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 26.46,
+    "adapted_prediction": null,
+    "original_interval": [
+      16.91,
+      36.01
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:45.151523"
+  },
+  {
+    "model": "xgboost",
+    "year": 1988,
+    "drift_severity": "LOW",
+    "drift_score": 0.1842,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 32.34,
+    "adapted_prediction": null,
+    "original_interval": [
+      22.79,
+      41.89
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:46.234311"
+  },
+  {
+    "model": "xgboost",
+    "year": 1989,
+    "drift_severity": "LOW",
+    "drift_score": 0.0256,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 23.68,
+    "adapted_prediction": null,
+    "original_interval": [
+      14.13,
+      33.23
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:47.220377"
+  },
+  {
+    "model": "xgboost",
+    "year": 1990,
+    "drift_severity": "LOW",
+    "drift_score": 0.725,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 26.93,
+    "adapted_prediction": null,
+    "original_interval": [
+      17.38,
+      36.48
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:48.226052"
+  },
+  {
+    "model": "xgboost",
+    "year": 1991,
+    "drift_severity": "LOW",
+    "drift_score": 0.0,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 26.48,
+    "adapted_prediction": null,
+    "original_interval": [
+      16.93,
+      36.03
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:49.317442"
+  },
+  {
+    "model": "xgboost",
+    "year": 1992,
+    "drift_severity": "LOW",
+    "drift_score": 0.8333,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 24.94,
+    "adapted_prediction": null,
+    "original_interval": [
+      15.39,
+      34.49
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:50.340714"
+  },
+  {
+    "model": "xgboost",
+    "year": 1993,
+    "drift_severity": "LOW",
+    "drift_score": 0.2558,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 29.45,
+    "adapted_prediction": null,
+    "original_interval": [
+      19.9,
+      38.99
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:51.461199"
+  },
+  {
+    "model": "xgboost",
+    "year": 1994,
+    "drift_severity": "LOW",
+    "drift_score": 0.4773,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 26.0,
+    "adapted_prediction": null,
+    "original_interval": [
+      16.45,
+      35.55
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:52.573923"
+  },
+  {
+    "model": "xgboost",
+    "year": 1995,
+    "drift_severity": "LOW",
+    "drift_score": 0.3333,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 23.11,
+    "adapted_prediction": null,
+    "original_interval": [
+      13.56,
+      32.66
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:53.770705"
+  },
+  {
+    "model": "xgboost",
+    "year": 1996,
+    "drift_severity": "LOW",
+    "drift_score": 0.5217,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 30.15,
+    "adapted_prediction": null,
+    "original_interval": [
+      20.6,
+      39.7
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:54.822555"
+  },
+  {
+    "model": "xgboost",
+    "year": 1997,
+    "drift_severity": "LOW",
+    "drift_score": 0.0,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 29.07,
+    "adapted_prediction": null,
+    "original_interval": [
+      18.88,
+      39.27
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:55.839186"
+  },
+  {
+    "model": "xgboost",
+    "year": 1998,
+    "drift_severity": "LOW",
+    "drift_score": 0.2708,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 26.66,
+    "adapted_prediction": null,
+    "original_interval": [
+      13.51,
+      39.81
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:56.866446"
+  },
+  {
+    "model": "xgboost",
+    "year": 1999,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.9388,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
+    "original_prediction": 23.34,
+    "adapted_prediction": 28.08,
+    "original_interval": [
+      9.0,
+      37.68
+    ],
+    "adapted_interval": [
+      13.74,
+      42.42
+    ],
+    "details": {},
+    "timestamp": "2026-10-11T23:46:57.906883"
+  },
+  {
+    "model": "xgboost",
+    "year": 2000,
+    "drift_severity": "LOW",
+    "drift_score": 0.72,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 22.14,
+    "adapted_prediction": null,
+    "original_interval": [
+      5.48,
+      38.8
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:46:58.956767"
+  },
+  {
+    "model": "xgboost",
+    "year": 2001,
+    "drift_severity": "LOW",
+    "drift_score": 0.4314,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 29.61,
+    "adapted_prediction": null,
+    "original_interval": [
+      12.95,
+      46.27
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:00.103666"
+  },
+  {
+    "model": "xgboost",
+    "year": 2002,
+    "drift_severity": "LOW",
+    "drift_score": 0.1538,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 24.38,
+    "adapted_prediction": null,
+    "original_interval": [
+      7.72,
+      41.04
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:01.252315"
+  },
+  {
+    "model": "xgboost",
+    "year": 2003,
+    "drift_severity": "LOW",
+    "drift_score": 0.5472,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 35.49,
+    "adapted_prediction": null,
+    "original_interval": [
+      18.83,
+      52.15
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:02.459772"
+  },
+  {
+    "model": "xgboost",
+    "year": 2004,
+    "drift_severity": "LOW",
+    "drift_score": 0.1296,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 28.75,
+    "adapted_prediction": null,
+    "original_interval": [
+      12.09,
+      45.41
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:03.500440"
+  },
+  {
+    "model": "xgboost",
+    "year": 2005,
+    "drift_severity": "LOW",
+    "drift_score": 0.8,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 28.49,
+    "adapted_prediction": null,
+    "original_interval": [
+      11.83,
+      45.15
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:04.575011"
+  },
+  {
+    "model": "xgboost",
+    "year": 2006,
+    "drift_severity": "LOW",
+    "drift_score": 0.3571,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 30.17,
+    "adapted_prediction": null,
+    "original_interval": [
+      13.51,
+      46.83
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:05.614826"
+  },
+  {
+    "model": "xgboost",
+    "year": 2007,
+    "drift_severity": "LOW",
+    "drift_score": 0.5088,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 33.35,
+    "adapted_prediction": null,
+    "original_interval": [
+      16.69,
+      50.01
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:06.699655"
+  },
+  {
+    "model": "xgboost",
+    "year": 2008,
+    "drift_severity": "LOW",
+    "drift_score": 0.6897,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 26.98,
+    "adapted_prediction": null,
+    "original_interval": [
+      10.32,
+      43.64
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:07.758156"
+  },
+  {
+    "model": "xgboost",
+    "year": 2009,
+    "drift_severity": "LOW",
+    "drift_score": 0.6949,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 30.48,
+    "adapted_prediction": null,
+    "original_interval": [
+      13.82,
+      47.13
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:08.889413"
+  },
+  {
+    "model": "xgboost",
+    "year": 2010,
+    "drift_severity": "LOW",
+    "drift_score": 0.5333,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 31.58,
+    "adapted_prediction": null,
+    "original_interval": [
+      14.92,
+      48.24
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:09.972588"
+  },
+  {
+    "model": "xgboost",
+    "year": 2011,
+    "drift_severity": "LOW",
+    "drift_score": 0.7869,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 28.13,
+    "adapted_prediction": null,
+    "original_interval": [
+      11.47,
+      44.78
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:11.334717"
+  },
+  {
+    "model": "xgboost",
+    "year": 2012,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.9355,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
+    "original_prediction": 32.9,
+    "adapted_prediction": 32.83,
+    "original_interval": [
+      16.24,
+      49.56
+    ],
+    "adapted_interval": [
+      16.17,
+      49.49
+    ],
+    "details": {},
+    "timestamp": "2026-10-11T23:47:12.416291"
+  },
+  {
+    "model": "xgboost",
+    "year": 2013,
+    "drift_severity": "LOW",
+    "drift_score": 0.4444,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 33.12,
+    "adapted_prediction": null,
+    "original_interval": [
+      16.46,
+      49.78
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:13.497551"
+  },
+  {
+    "model": "xgboost",
+    "year": 2014,
+    "drift_severity": "LOW",
+    "drift_score": 0.8125,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 22.92,
+    "adapted_prediction": null,
+    "original_interval": [
+      6.26,
+      39.57
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:14.655663"
+  },
+  {
+    "model": "xgboost",
+    "year": 2015,
+    "drift_severity": "LOW",
+    "drift_score": 0.5538,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 28.54,
+    "adapted_prediction": null,
+    "original_interval": [
+      11.88,
+      45.19
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:15.737873"
+  },
+  {
+    "model": "xgboost",
+    "year": 2016,
+    "drift_severity": "LOW",
+    "drift_score": 0.697,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 38.59,
+    "adapted_prediction": null,
+    "original_interval": [
+      21.93,
+      55.25
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:16.885083"
+  },
+  {
+    "model": "xgboost",
+    "year": 2017,
+    "drift_severity": "LOW",
+    "drift_score": 0.8358,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 36.75,
+    "adapted_prediction": null,
+    "original_interval": [
+      20.09,
+      53.41
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:17.988770"
+  },
+  {
+    "model": "xgboost",
+    "year": 2018,
+    "drift_severity": "LOW",
+    "drift_score": 0.0441,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 28.73,
+    "adapted_prediction": null,
+    "original_interval": [
+      12.39,
+      45.08
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:19.088615"
+  },
+  {
+    "model": "xgboost",
+    "year": 2019,
+    "drift_severity": "LOW",
+    "drift_score": 0.3623,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 33.76,
+    "adapted_prediction": null,
+    "original_interval": [
+      17.41,
+      50.11
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:20.439186"
+  },
+  {
+    "model": "xgboost",
+    "year": 2020,
+    "drift_severity": "LOW",
+    "drift_score": 0.5143,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 37.81,
+    "adapted_prediction": null,
+    "original_interval": [
+      23.01,
+      52.61
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:21.631398"
+  },
+  {
+    "model": "xgboost",
+    "year": 2021,
+    "drift_severity": "LOW",
+    "drift_score": 0.1127,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 33.83,
+    "adapted_prediction": null,
+    "original_interval": [
+      19.03,
+      48.63
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:22.771796"
+  },
+  {
+    "model": "xgboost",
+    "year": 2022,
+    "drift_severity": "LOW",
+    "drift_score": 0.6389,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 33.44,
+    "adapted_prediction": null,
+    "original_interval": [
+      18.64,
+      48.24
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:23.883621"
+  },
+  {
+    "model": "xgboost",
+    "year": 2023,
+    "drift_severity": "LOW",
+    "drift_score": 0.5342,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 33.21,
+    "adapted_prediction": null,
+    "original_interval": [
+      18.41,
+      48.02
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:25.004863"
+  },
+  {
+    "model": "xgboost",
+    "year": 2025,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.9189,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
+    "original_prediction": 35.46,
+    "adapted_prediction": 38.48,
+    "original_interval": [
+      20.66,
+      50.26
+    ],
+    "adapted_interval": [
+      23.68,
+      53.28
+    ],
+    "details": {},
+    "timestamp": "2026-10-11T23:47:26.129362"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1976,
+    "drift_severity": "LOW",
+    "drift_score": 0.7692,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 36.41,
+    "adapted_prediction": null,
+    "original_interval": [
+      36.41,
+      36.41
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:26.176517"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1977,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.963,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
+    "original_prediction": 35.82,
+    "adapted_prediction": 31.18,
+    "original_interval": [
+      35.82,
+      35.82
+    ],
+    "adapted_interval": [
+      31.18,
+      31.18
+    ],
+    "details": {},
+    "timestamp": "2026-10-11T23:47:26.209402"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1978,
+    "drift_severity": "LOW",
+    "drift_score": 0.8929,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 39.14,
+    "adapted_prediction": null,
+    "original_interval": [
+      39.14,
+      39.14
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:26.255286"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1979,
+    "drift_severity": "LOW",
+    "drift_score": 0.7931,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 38.07,
+    "adapted_prediction": null,
+    "original_interval": [
+      38.07,
+      38.07
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:26.294324"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1980,
+    "drift_severity": "LOW",
+    "drift_score": 0.7667,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 40.03,
+    "adapted_prediction": null,
+    "original_interval": [
+      40.03,
+      40.03
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:26.333938"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1981,
+    "drift_severity": "LOW",
+    "drift_score": 0.4194,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 33.21,
+    "adapted_prediction": null,
+    "original_interval": [
+      33.21,
+      33.21
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:26.360101"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1982,
+    "drift_severity": "LOW",
+    "drift_score": 0.5,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 39.27,
+    "adapted_prediction": null,
+    "original_interval": [
+      39.27,
+      39.27
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:26.411261"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1983,
+    "drift_severity": "LOW",
+    "drift_score": 0.3939,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 39.65,
+    "adapted_prediction": null,
+    "original_interval": [
+      39.65,
+      39.65
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:26.441128"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1984,
+    "drift_severity": "LOW",
+    "drift_score": 0.5882,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 42.2,
+    "adapted_prediction": null,
+    "original_interval": [
+      42.2,
+      42.2
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:26.487056"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1985,
+    "drift_severity": "LOW",
+    "drift_score": 0.7143,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 37.73,
+    "adapted_prediction": null,
+    "original_interval": [
+      37.73,
+      37.73
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:26.522220"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1986,
+    "drift_severity": "LOW",
+    "drift_score": 0.8056,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 37.14,
+    "adapted_prediction": null,
+    "original_interval": [
+      23.24,
+      51.05
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:26.557619"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1987,
+    "drift_severity": "LOW",
+    "drift_score": 0.3784,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 36.31,
+    "adapted_prediction": null,
+    "original_interval": [
+      22.41,
+      50.22
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:26.605248"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1988,
+    "drift_severity": "LOW",
+    "drift_score": 0.1842,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 37.98,
+    "adapted_prediction": null,
+    "original_interval": [
+      24.07,
+      51.89
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:26.638927"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1989,
+    "drift_severity": "LOW",
+    "drift_score": 0.0256,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 34.88,
+    "adapted_prediction": null,
+    "original_interval": [
+      20.98,
+      48.79
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:26.688551"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1990,
+    "drift_severity": "LOW",
+    "drift_score": 0.725,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 35.02,
+    "adapted_prediction": null,
+    "original_interval": [
+      21.12,
+      48.93
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:26.762462"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1991,
+    "drift_severity": "LOW",
+    "drift_score": 0.0,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 32.13,
+    "adapted_prediction": null,
+    "original_interval": [
+      18.22,
+      46.04
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:26.845213"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1992,
+    "drift_severity": "LOW",
+    "drift_score": 0.8333,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 32.22,
+    "adapted_prediction": null,
+    "original_interval": [
+      18.32,
+      46.13
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:26.897506"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1993,
+    "drift_severity": "LOW",
+    "drift_score": 0.2558,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 39.93,
+    "adapted_prediction": null,
+    "original_interval": [
+      26.02,
+      53.84
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:26.941408"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1994,
+    "drift_severity": "LOW",
+    "drift_score": 0.4773,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 36.4,
+    "adapted_prediction": null,
+    "original_interval": [
+      22.5,
+      50.31
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:26.987136"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1995,
+    "drift_severity": "LOW",
+    "drift_score": 0.3333,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 34.96,
+    "adapted_prediction": null,
+    "original_interval": [
+      23.63,
+      46.29
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:27.040914"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1996,
+    "drift_severity": "LOW",
+    "drift_score": 0.5217,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 35.16,
+    "adapted_prediction": null,
+    "original_interval": [
+      22.2,
+      48.11
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:27.089226"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1997,
+    "drift_severity": "LOW",
+    "drift_score": 0.0,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 35.71,
+    "adapted_prediction": null,
+    "original_interval": [
+      22.75,
+      48.66
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:27.139270"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1998,
+    "drift_severity": "LOW",
+    "drift_score": 0.2708,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 34.56,
+    "adapted_prediction": null,
+    "original_interval": [
+      18.26,
+      50.85
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:27.188629"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 1999,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.9388,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
+    "original_prediction": 33.21,
+    "adapted_prediction": 31.98,
+    "original_interval": [
+      16.92,
+      49.5
+    ],
+    "adapted_interval": [
+      15.69,
+      48.28
+    ],
+    "details": {},
+    "timestamp": "2026-10-11T23:47:27.243971"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2000,
+    "drift_severity": "LOW",
+    "drift_score": 0.72,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 30.75,
+    "adapted_prediction": null,
+    "original_interval": [
+      14.46,
+      47.05
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:27.288644"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2001,
+    "drift_severity": "LOW",
+    "drift_score": 0.4314,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 40.49,
+    "adapted_prediction": null,
+    "original_interval": [
+      24.2,
+      56.79
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:27.345721"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2002,
+    "drift_severity": "LOW",
+    "drift_score": 0.1538,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 34.18,
+    "adapted_prediction": null,
+    "original_interval": [
+      17.89,
+      50.48
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:27.402546"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2003,
+    "drift_severity": "LOW",
+    "drift_score": 0.5472,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 42.2,
+    "adapted_prediction": null,
+    "original_interval": [
+      25.91,
+      58.49
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:27.453742"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2004,
+    "drift_severity": "LOW",
+    "drift_score": 0.1296,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 35.76,
+    "adapted_prediction": null,
+    "original_interval": [
+      19.47,
+      52.05
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:27.517260"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2005,
+    "drift_severity": "LOW",
+    "drift_score": 0.8,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 36.9,
+    "adapted_prediction": null,
+    "original_interval": [
+      20.61,
+      53.19
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:27.571896"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2006,
+    "drift_severity": "LOW",
+    "drift_score": 0.3571,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 35.46,
+    "adapted_prediction": null,
+    "original_interval": [
+      19.16,
+      51.75
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:27.627603"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2007,
+    "drift_severity": "LOW",
+    "drift_score": 0.5088,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 36.7,
+    "adapted_prediction": null,
+    "original_interval": [
+      20.41,
+      53.0
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:27.691200"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2008,
+    "drift_severity": "LOW",
+    "drift_score": 0.6897,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 32.3,
+    "adapted_prediction": null,
+    "original_interval": [
+      14.14,
+      50.45
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:27.749715"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2009,
+    "drift_severity": "LOW",
+    "drift_score": 0.6949,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 35.67,
+    "adapted_prediction": null,
+    "original_interval": [
+      17.51,
+      53.82
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:27.803467"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2010,
+    "drift_severity": "LOW",
+    "drift_score": 0.5333,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 37.99,
+    "adapted_prediction": null,
+    "original_interval": [
+      19.83,
+      56.14
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:27.868627"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2011,
+    "drift_severity": "LOW",
+    "drift_score": 0.7869,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 41.3,
+    "adapted_prediction": null,
+    "original_interval": [
+      23.14,
+      59.46
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:27.920259"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2012,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.9355,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
+    "original_prediction": 32.17,
+    "adapted_prediction": 27.32,
+    "original_interval": [
+      14.01,
+      50.33
+    ],
+    "adapted_interval": [
+      9.16,
+      45.48
+    ],
+    "details": {},
+    "timestamp": "2026-10-11T23:47:27.985354"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2013,
+    "drift_severity": "LOW",
+    "drift_score": 0.4444,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 39.56,
+    "adapted_prediction": null,
+    "original_interval": [
+      21.4,
+      57.72
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:28.041392"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2014,
+    "drift_severity": "LOW",
+    "drift_score": 0.8125,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 32.57,
+    "adapted_prediction": null,
+    "original_interval": [
+      14.42,
+      50.73
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:28.114899"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2015,
+    "drift_severity": "LOW",
+    "drift_score": 0.5538,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 30.23,
+    "adapted_prediction": null,
+    "original_interval": [
+      12.08,
+      48.39
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:28.193454"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2016,
+    "drift_severity": "LOW",
+    "drift_score": 0.697,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 39.39,
+    "adapted_prediction": null,
+    "original_interval": [
+      21.23,
+      57.55
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:28.268748"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2017,
+    "drift_severity": "LOW",
+    "drift_score": 0.8358,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 34.63,
+    "adapted_prediction": null,
+    "original_interval": [
+      18.34,
+      50.93
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:28.341789"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2018,
+    "drift_severity": "LOW",
+    "drift_score": 0.0441,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 39.75,
+    "adapted_prediction": null,
+    "original_interval": [
+      24.22,
+      55.28
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:28.421419"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2019,
+    "drift_severity": "LOW",
+    "drift_score": 0.3623,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 34.14,
+    "adapted_prediction": null,
+    "original_interval": [
+      18.6,
+      49.67
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:28.511777"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2020,
+    "drift_severity": "LOW",
+    "drift_score": 0.5143,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 41.16,
+    "adapted_prediction": null,
+    "original_interval": [
+      25.63,
+      56.69
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:28.586622"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2021,
+    "drift_severity": "LOW",
+    "drift_score": 0.1127,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 40.03,
+    "adapted_prediction": null,
+    "original_interval": [
+      24.5,
+      55.56
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:28.660468"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2022,
+    "drift_severity": "LOW",
+    "drift_score": 0.6389,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 39.45,
+    "adapted_prediction": null,
+    "original_interval": [
+      23.92,
+      54.98
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:28.733576"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2023,
+    "drift_severity": "LOW",
+    "drift_score": 0.5342,
+    "strategy_used": "none",
+    "adaptation_applied": false,
+    "original_prediction": 38.22,
+    "adapted_prediction": null,
+    "original_interval": [
+      22.69,
+      53.75
+    ],
+    "adapted_interval": null,
+    "details": {},
+    "timestamp": "2026-10-11T23:47:28.802128"
+  },
+  {
+    "model": "detrended_ridge",
+    "year": 2025,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.9189,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
+    "original_prediction": 38.03,
+    "adapted_prediction": 38.06,
+    "original_interval": [
+      22.5,
+      53.57
+    ],
+    "adapted_interval": [
+      22.53,
+      53.59
+    ],
+    "details": {},
+    "timestamp": "2026-10-11T23:47:28.868658"
+  }
+]

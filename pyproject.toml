@@ -1,0 +1,38 @@
+[project]
+name = "agr1-wheat-forecast"
+version = "0.1.0"
+description = "Adaptive Temporal OOD Winter Wheat Yield Forecasting with Drift Detection and Conformal Prediction"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=1.5",
+    "numpy>=1.22",
+    "scikit-learn>=1.2",
+    "xgboost>=1.7",
+    "scipy>=1.9",
+    "plotly>=5.14",
+    "fastapi>=0.95",
+    "uvicorn[standard]>=0.22",
+    "streamlit>=1.24",
+    "httpx>=0.24",
+    "python-dotenv>=1.0",
+    "pyarrow>=12.0",
+    "requests>=2.28",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.2", "ruff>=0.1", "jupyter>=1.0"]
+
+[build-system]
+requires = ["setuptools>=65.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*", "api*", "dashboard*", "config*", "experiments*"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
