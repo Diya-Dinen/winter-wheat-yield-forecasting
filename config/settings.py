@@ -107,14 +107,11 @@ MIN_DRIFT_REF_YEARS = 15        # Minimum reference years for drift detection
 # Drift Detection Thresholds
 # ---------------------------------------------------------------------------
 KS_ALPHA = 0.05                 # p-value threshold for KS test
-DRIFT_P_HIGH = 0.025            # Empirical p-value <= this -> HIGH drift
-DRIFT_P_MODERATE = 0.10         # Empirical p-value <= this -> MODERATE drift
-DRIFT_Z_FEATURE = 3.0           # |z| above this flags an individual feature
-MIN_BATCH_FOR_PSI_KS = 8        # KS/PSI only meaningful with at least this many test rows
-PSI_MODERATE = 0.10             # PSI ≥ this → MODERATE
-PSI_HIGH = 0.25                 # PSI ≥ this → HIGH
-MAHALANOBIS_MODERATE = 3.0      # Mahalanobis distance thresholds
-MAHALANOBIS_HIGH = 5.0
+DRIFT_Z_FEATURE = 2.5           # |z| above this (vs past-only baseline) flags an individual feature
+DRIFT_FEATURES_MODERATE = 3     # >= this many flagged features -> MODERATE
+DRIFT_FEATURES_HIGH = 6         # >= this many flagged features -> HIGH
+DRIFT_PERCENTILE_MODERATE = 95  # Dynamic multivariate threshold: 95th percentile of historical distribution
+DRIFT_PERCENTILE_HIGH = 99      # Dynamic multivariate threshold: 99th percentile of historical distribution
 PCA_VARIANCE_RETAINED = 0.95    # Retain 95% variance for PCA reconstruction
 
 # ---------------------------------------------------------------------------

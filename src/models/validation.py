@@ -55,15 +55,21 @@ class CVResult:
         residuals = np.array([s.y_true - s.y_pred for s in self.splits])
         return float(np.sqrt(np.mean(residuals ** 2)))
 
+    
     @property
     def overall_r2(self) -> float:
-        """R² across all test-year predictions."""
-        y_true = np.array([s.y_true for s in self.splits])
-        y_pred = np.array([s.y_pred for s in self.splits])
-        if len(y_true) < 2:
+        """R² across all test-year predictions (NaN if undefined)."""
+        y_true = np.array([s.y_true for s in self.splits], dtype=float)
+        y_pred = np.array([s.y_pred for s in self.splits], dtype=float)
+        mask = np.isfinite(y_true) & np.isfinite(y_pred)
+        y_true, y_pred = y_true[mask], y_pred[mask]
+        if len(y_true) < 2 or np.var(y_true) == 0:
             return float("nan")
-        return float(r2_score(y_true, y_pred))
-
+        try:
+            return float(r2_score(y_true, y_pred))
+        except ValueError:
+            return float("nan")
+        
     @property
     def overall_mape(self) -> float:
         return np.mean([s.mape for s in self.splits])

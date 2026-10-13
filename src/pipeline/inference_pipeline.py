@@ -114,10 +114,11 @@ def run_inference(
     # --- Drift detection ---
     # Reference distribution = years BEFORE the requested year (never include the test year)
     ref = train_df[train_df["year"] < year]
-    if len(ref) < 15:
-        ref = train_df
     X_train = ref[feature_cols].values
-    drift_result = detect_drift(X_train, X_test, feature_names=feature_cols)
+    drift_result = detect_drift(
+        X_train, X_test, feature_names=feature_cols,
+        train_years=ref["year"].values, current_year=year,
+    )
 
     # --- Conformal prediction ---
     conformal_result = conformal.predict_single(X_test)

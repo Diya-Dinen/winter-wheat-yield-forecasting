@@ -2,8 +2,8 @@
   {
     "model": "ridge",
     "year": 1976,
-    "drift_severity": "LOW",
-    "drift_score": 0.7692,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.5,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 39.99,
@@ -14,84 +14,93 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:00.678460"
+    "timestamp": "2026-10-13T22:01:57.309618"
   },
   {
     "model": "ridge",
     "year": 1977,
-    "drift_severity": "MODERATE",
-    "drift_score": 0.963,
-    "strategy_used": "bias_correction",
+    "drift_severity": "HIGH",
+    "drift_score": 1.0,
+    "strategy_used": "windowed_retrain",
     "adaptation_applied": true,
     "original_prediction": 24.85,
-    "adapted_prediction": 19.02,
+    "adapted_prediction": 30.77,
     "original_interval": [
       24.85,
       24.85
     ],
     "adapted_interval": [
-      19.02,
-      19.02
+      30.77,
+      30.77
     ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:00.712018"
+    "timestamp": "2026-10-13T22:01:57.695799"
   },
   {
     "model": "ridge",
     "year": 1978,
-    "drift_severity": "LOW",
-    "drift_score": 0.8929,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.8333,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
     "original_prediction": 49.11,
-    "adapted_prediction": null,
+    "adapted_prediction": 46.46,
     "original_interval": [
       49.11,
       49.11
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      46.46,
+      46.46
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:00.755837"
+    "timestamp": "2026-10-13T22:01:57.844651"
   },
   {
     "model": "ridge",
     "year": 1979,
-    "drift_severity": "LOW",
-    "drift_score": 0.7931,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.5,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
     "original_prediction": 46.29,
-    "adapted_prediction": null,
+    "adapted_prediction": 40.82,
     "original_interval": [
       46.29,
       46.29
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      40.82,
+      40.82
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:00.795655"
+    "timestamp": "2026-10-13T22:01:57.961187"
   },
   {
     "model": "ridge",
     "year": 1980,
-    "drift_severity": "LOW",
-    "drift_score": 0.7667,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "HIGH",
+    "drift_score": 1.0,
+    "strategy_used": "windowed_retrain",
+    "adaptation_applied": true,
     "original_prediction": 38.09,
-    "adapted_prediction": null,
+    "adapted_prediction": 46.64,
     "original_interval": [
       38.09,
       38.09
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      46.64,
+      46.64
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:00.836217"
+    "timestamp": "2026-10-13T22:01:58.347976"
   },
   {
     "model": "ridge",
     "year": 1981,
     "drift_severity": "LOW",
-    "drift_score": 0.4194,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 22.89,
@@ -102,13 +111,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:00.877668"
+    "timestamp": "2026-10-13T22:01:58.475218"
   },
   {
     "model": "ridge",
     "year": 1982,
     "drift_severity": "LOW",
-    "drift_score": 0.5,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 38.77,
@@ -119,13 +128,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:00.911092"
+    "timestamp": "2026-10-13T22:01:58.596742"
   },
   {
     "model": "ridge",
     "year": 1983,
     "drift_severity": "LOW",
-    "drift_score": 0.3939,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 28.93,
@@ -136,13 +145,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:00.963665"
+    "timestamp": "2026-10-13T22:01:58.719927"
   },
   {
     "model": "ridge",
     "year": 1984,
     "drift_severity": "LOW",
-    "drift_score": 0.5882,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 42.86,
@@ -153,13 +162,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:01.002620"
+    "timestamp": "2026-10-13T22:01:58.847798"
   },
   {
     "model": "ridge",
     "year": 1985,
     "drift_severity": "LOW",
-    "drift_score": 0.7143,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 25.62,
@@ -170,13 +179,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:01.051097"
+    "timestamp": "2026-10-13T22:01:58.989443"
   },
   {
     "model": "ridge",
     "year": 1986,
     "drift_severity": "LOW",
-    "drift_score": 0.8056,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 36.22,
@@ -187,13 +196,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:01.106629"
+    "timestamp": "2026-10-13T22:01:59.108088"
   },
   {
     "model": "ridge",
     "year": 1987,
     "drift_severity": "LOW",
-    "drift_score": 0.3784,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 28.92,
@@ -204,13 +213,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:01.154007"
+    "timestamp": "2026-10-13T22:01:59.251020"
   },
   {
     "model": "ridge",
     "year": 1988,
     "drift_severity": "LOW",
-    "drift_score": 0.1842,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 38.32,
@@ -221,13 +230,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:01.194686"
+    "timestamp": "2026-10-13T22:01:59.373262"
   },
   {
     "model": "ridge",
     "year": 1989,
     "drift_severity": "LOW",
-    "drift_score": 0.0256,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 31.55,
@@ -238,13 +247,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:01.265200"
+    "timestamp": "2026-10-13T22:01:59.491706"
   },
   {
     "model": "ridge",
     "year": 1990,
     "drift_severity": "LOW",
-    "drift_score": 0.725,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 23.02,
@@ -255,7 +264,7 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:01.316644"
+    "timestamp": "2026-10-13T22:01:59.628274"
   },
   {
     "model": "ridge",
@@ -272,30 +281,33 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:01.372903"
+    "timestamp": "2026-10-13T22:01:59.763781"
   },
   {
     "model": "ridge",
     "year": 1992,
-    "drift_severity": "LOW",
-    "drift_score": 0.8333,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "HIGH",
+    "drift_score": 1.0,
+    "strategy_used": "windowed_retrain",
+    "adaptation_applied": true,
     "original_prediction": 29.8,
-    "adapted_prediction": null,
+    "adapted_prediction": 28.41,
     "original_interval": [
       12.31,
       47.28
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      10.93,
+      45.9
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:01.429995"
+    "timestamp": "2026-10-13T22:02:00.110738"
   },
   {
     "model": "ridge",
     "year": 1993,
     "drift_severity": "LOW",
-    "drift_score": 0.2558,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 29.62,
@@ -306,13 +318,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:01.485875"
+    "timestamp": "2026-10-13T22:02:00.301476"
   },
   {
     "model": "ridge",
     "year": 1994,
     "drift_severity": "LOW",
-    "drift_score": 0.4773,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 34.02,
@@ -323,13 +335,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:01.545921"
+    "timestamp": "2026-10-13T22:02:00.447008"
   },
   {
     "model": "ridge",
     "year": 1995,
     "drift_severity": "LOW",
-    "drift_score": 0.3333,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 31.12,
@@ -340,13 +352,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:01.605305"
+    "timestamp": "2026-10-13T22:02:00.619555"
   },
   {
     "model": "ridge",
     "year": 1996,
     "drift_severity": "LOW",
-    "drift_score": 0.5217,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 17.32,
@@ -357,7 +369,7 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:01.669071"
+    "timestamp": "2026-10-13T22:02:00.809359"
   },
   {
     "model": "ridge",
@@ -374,13 +386,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:01.725243"
+    "timestamp": "2026-10-13T22:02:00.986503"
   },
   {
     "model": "ridge",
     "year": 1998,
     "drift_severity": "LOW",
-    "drift_score": 0.2708,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 19.77,
@@ -391,13 +403,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:01.778217"
+    "timestamp": "2026-10-13T22:02:01.128473"
   },
   {
     "model": "ridge",
     "year": 1999,
     "drift_severity": "MODERATE",
-    "drift_score": 0.9388,
+    "drift_score": 0.5,
     "strategy_used": "bias_correction",
     "adaptation_applied": true,
     "original_prediction": 28.64,
@@ -411,13 +423,13 @@
       54.99
     ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:01.827683"
+    "timestamp": "2026-10-13T22:02:01.268979"
   },
   {
     "model": "ridge",
     "year": 2000,
     "drift_severity": "LOW",
-    "drift_score": 0.72,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 21.87,
@@ -428,13 +440,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:01.876191"
+    "timestamp": "2026-10-13T22:02:01.408363"
   },
   {
     "model": "ridge",
     "year": 2001,
     "drift_severity": "LOW",
-    "drift_score": 0.4314,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 33.93,
@@ -445,13 +457,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:01.929617"
+    "timestamp": "2026-10-13T22:02:01.593326"
   },
   {
     "model": "ridge",
     "year": 2002,
     "drift_severity": "LOW",
-    "drift_score": 0.1538,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 17.09,
@@ -462,13 +474,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:01.984760"
+    "timestamp": "2026-10-13T22:02:01.844735"
   },
   {
     "model": "ridge",
     "year": 2003,
     "drift_severity": "LOW",
-    "drift_score": 0.5472,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 41.7,
@@ -479,13 +491,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:02.039919"
+    "timestamp": "2026-10-13T22:02:02.030002"
   },
   {
     "model": "ridge",
     "year": 2004,
     "drift_severity": "LOW",
-    "drift_score": 0.1296,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 29.16,
@@ -496,13 +508,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:02.095439"
+    "timestamp": "2026-10-13T22:02:02.186249"
   },
   {
     "model": "ridge",
     "year": 2005,
     "drift_severity": "LOW",
-    "drift_score": 0.8,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 27.07,
@@ -513,13 +525,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:02.157253"
+    "timestamp": "2026-10-13T22:02:02.395059"
   },
   {
     "model": "ridge",
     "year": 2006,
     "drift_severity": "LOW",
-    "drift_score": 0.3571,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 33.04,
@@ -530,13 +542,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:02.276215"
+    "timestamp": "2026-10-13T22:02:02.653168"
   },
   {
     "model": "ridge",
     "year": 2007,
     "drift_severity": "LOW",
-    "drift_score": 0.5088,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 24.19,
@@ -547,13 +559,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:02.340246"
+    "timestamp": "2026-10-13T22:02:02.885517"
   },
   {
     "model": "ridge",
     "year": 2008,
     "drift_severity": "LOW",
-    "drift_score": 0.6897,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 21.93,
@@ -564,13 +576,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:02.402314"
+    "timestamp": "2026-10-13T22:02:03.089530"
   },
   {
     "model": "ridge",
     "year": 2009,
     "drift_severity": "LOW",
-    "drift_score": 0.6949,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 28.04,
@@ -581,13 +593,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:02.452865"
+    "timestamp": "2026-10-13T22:02:03.262510"
   },
   {
     "model": "ridge",
     "year": 2010,
     "drift_severity": "LOW",
-    "drift_score": 0.5333,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 28.7,
@@ -598,50 +610,53 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:02.516204"
+    "timestamp": "2026-10-13T22:02:03.479434"
   },
   {
     "model": "ridge",
     "year": 2011,
-    "drift_severity": "LOW",
-    "drift_score": 0.7869,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "HIGH",
+    "drift_score": 1.0,
+    "strategy_used": "windowed_retrain",
+    "adaptation_applied": true,
     "original_prediction": 35.85,
-    "adapted_prediction": null,
+    "adapted_prediction": 43.59,
     "original_interval": [
       14.62,
       57.08
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      22.37,
+      64.82
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:02.583376"
+    "timestamp": "2026-10-13T22:02:04.276642"
   },
   {
     "model": "ridge",
     "year": 2012,
-    "drift_severity": "MODERATE",
-    "drift_score": 0.9355,
-    "strategy_used": "bias_correction",
+    "drift_severity": "HIGH",
+    "drift_score": 1.0,
+    "strategy_used": "windowed_retrain",
     "adaptation_applied": true,
     "original_prediction": 32.19,
-    "adapted_prediction": 33.81,
+    "adapted_prediction": 31.48,
     "original_interval": [
       10.97,
       53.42
     ],
     "adapted_interval": [
-      12.58,
-      55.03
+      10.26,
+      52.71
     ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:02.660559"
+    "timestamp": "2026-10-13T22:02:05.176061"
   },
   {
     "model": "ridge",
     "year": 2013,
     "drift_severity": "LOW",
-    "drift_score": 0.4444,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 31.33,
@@ -652,13 +667,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:02.739586"
+    "timestamp": "2026-10-13T22:02:05.734439"
   },
   {
     "model": "ridge",
     "year": 2014,
     "drift_severity": "LOW",
-    "drift_score": 0.8125,
+    "drift_score": 0.3333,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 17.95,
@@ -669,13 +684,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:02.806238"
+    "timestamp": "2026-10-13T22:02:06.273267"
   },
   {
     "model": "ridge",
     "year": 2015,
     "drift_severity": "LOW",
-    "drift_score": 0.5538,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 22.98,
@@ -686,13 +701,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:02.873890"
+    "timestamp": "2026-10-13T22:02:06.787250"
   },
   {
     "model": "ridge",
     "year": 2016,
     "drift_severity": "LOW",
-    "drift_score": 0.697,
+    "drift_score": 0.3333,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 47.92,
@@ -703,30 +718,33 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:02.941546"
+    "timestamp": "2026-10-13T22:02:07.344502"
   },
   {
     "model": "ridge",
     "year": 2017,
-    "drift_severity": "LOW",
-    "drift_score": 0.8358,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.6667,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
     "original_prediction": 28.27,
-    "adapted_prediction": null,
+    "adapted_prediction": 33.3,
     "original_interval": [
       7.04,
       49.5
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      12.08,
+      54.53
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:03.006337"
+    "timestamp": "2026-10-13T22:02:07.681175"
   },
   {
     "model": "ridge",
     "year": 2018,
     "drift_severity": "LOW",
-    "drift_score": 0.0441,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 30.98,
@@ -737,13 +755,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:03.079294"
+    "timestamp": "2026-10-13T22:02:07.898624"
   },
   {
     "model": "ridge",
     "year": 2019,
     "drift_severity": "LOW",
-    "drift_score": 0.3623,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 28.2,
@@ -754,13 +772,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:03.144575"
+    "timestamp": "2026-10-13T22:02:08.140077"
   },
   {
     "model": "ridge",
     "year": 2020,
     "drift_severity": "LOW",
-    "drift_score": 0.5143,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 36.17,
@@ -771,13 +789,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:03.217275"
+    "timestamp": "2026-10-13T22:02:08.444603"
   },
   {
     "model": "ridge",
     "year": 2021,
     "drift_severity": "LOW",
-    "drift_score": 0.1127,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 31.13,
@@ -788,13 +806,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:03.279464"
+    "timestamp": "2026-10-13T22:02:08.772781"
   },
   {
     "model": "ridge",
     "year": 2022,
     "drift_severity": "LOW",
-    "drift_score": 0.6389,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 33.87,
@@ -805,13 +823,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:03.358052"
+    "timestamp": "2026-10-13T22:02:09.037962"
   },
   {
     "model": "ridge",
     "year": 2023,
     "drift_severity": "LOW",
-    "drift_score": 0.5342,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 30.12,
@@ -822,13 +840,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:03.428389"
+    "timestamp": "2026-10-13T22:02:09.310150"
   },
   {
     "model": "ridge",
     "year": 2025,
     "drift_severity": "MODERATE",
-    "drift_score": 0.9189,
+    "drift_score": 0.5,
     "strategy_used": "bias_correction",
     "adaptation_applied": true,
     "original_prediction": 33.52,
@@ -842,13 +860,13 @@
       55.2
     ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:03.508728"
+    "timestamp": "2026-10-13T22:02:09.557960"
   },
   {
     "model": "random_forest",
     "year": 1976,
-    "drift_severity": "LOW",
-    "drift_score": 0.7692,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.5,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 21.37,
@@ -859,84 +877,93 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:04.180967"
+    "timestamp": "2026-10-13T22:02:10.415082"
   },
   {
     "model": "random_forest",
     "year": 1977,
-    "drift_severity": "MODERATE",
-    "drift_score": 0.963,
-    "strategy_used": "bias_correction",
+    "drift_severity": "HIGH",
+    "drift_score": 1.0,
+    "strategy_used": "windowed_retrain",
     "adaptation_applied": true,
     "original_prediction": 21.96,
-    "adapted_prediction": 22.33,
+    "adapted_prediction": 29.29,
     "original_interval": [
       21.96,
       21.96
     ],
     "adapted_interval": [
-      22.33,
-      22.33
+      29.29,
+      29.29
     ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:04.732188"
+    "timestamp": "2026-10-13T22:02:27.392708"
   },
   {
     "model": "random_forest",
     "year": 1978,
-    "drift_severity": "LOW",
-    "drift_score": 0.8929,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.8333,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
     "original_prediction": 26.48,
-    "adapted_prediction": null,
+    "adapted_prediction": 29.19,
     "original_interval": [
       26.48,
       26.48
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      29.19,
+      29.19
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:05.326514"
+    "timestamp": "2026-10-13T22:02:28.177512"
   },
   {
     "model": "random_forest",
     "year": 1979,
-    "drift_severity": "LOW",
-    "drift_score": 0.7931,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.5,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
     "original_prediction": 32.07,
-    "adapted_prediction": null,
+    "adapted_prediction": 35.43,
     "original_interval": [
       32.07,
       32.07
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      35.43,
+      35.43
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:05.866106"
+    "timestamp": "2026-10-13T22:02:29.108177"
   },
   {
     "model": "random_forest",
     "year": 1980,
-    "drift_severity": "LOW",
-    "drift_score": 0.7667,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "HIGH",
+    "drift_score": 1.0,
+    "strategy_used": "windowed_retrain",
+    "adaptation_applied": true,
     "original_prediction": 27.89,
-    "adapted_prediction": null,
+    "adapted_prediction": 30.76,
     "original_interval": [
       27.89,
       27.89
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      30.76,
+      30.76
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:06.463901"
+    "timestamp": "2026-10-13T22:02:49.118814"
   },
   {
     "model": "random_forest",
     "year": 1981,
     "drift_severity": "LOW",
-    "drift_score": 0.4194,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 23.15,
@@ -947,13 +974,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:07.148967"
+    "timestamp": "2026-10-13T22:02:49.809009"
   },
   {
     "model": "random_forest",
     "year": 1982,
     "drift_severity": "LOW",
-    "drift_score": 0.5,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 32.15,
@@ -964,13 +991,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:07.693873"
+    "timestamp": "2026-10-13T22:02:50.448811"
   },
   {
     "model": "random_forest",
     "year": 1983,
     "drift_severity": "LOW",
-    "drift_score": 0.3939,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 27.78,
@@ -981,13 +1008,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:08.265153"
+    "timestamp": "2026-10-13T22:02:51.192697"
   },
   {
     "model": "random_forest",
     "year": 1984,
     "drift_severity": "LOW",
-    "drift_score": 0.5882,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 34.42,
@@ -998,13 +1025,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:08.817149"
+    "timestamp": "2026-10-13T22:02:51.821902"
   },
   {
     "model": "random_forest",
     "year": 1985,
     "drift_severity": "LOW",
-    "drift_score": 0.7143,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 27.58,
@@ -1015,13 +1042,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:09.378436"
+    "timestamp": "2026-10-13T22:02:52.468695"
   },
   {
     "model": "random_forest",
     "year": 1986,
     "drift_severity": "LOW",
-    "drift_score": 0.8056,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 27.58,
@@ -1032,13 +1059,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:10.060279"
+    "timestamp": "2026-10-13T22:02:53.560516"
   },
   {
     "model": "random_forest",
     "year": 1987,
     "drift_severity": "LOW",
-    "drift_score": 0.3784,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 28.48,
@@ -1049,13 +1076,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:10.608303"
+    "timestamp": "2026-10-13T22:02:54.455511"
   },
   {
     "model": "random_forest",
     "year": 1988,
     "drift_severity": "LOW",
-    "drift_score": 0.1842,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 30.56,
@@ -1066,13 +1093,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:11.182245"
+    "timestamp": "2026-10-13T22:02:55.358017"
   },
   {
     "model": "random_forest",
     "year": 1989,
     "drift_severity": "LOW",
-    "drift_score": 0.0256,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 26.03,
@@ -1083,13 +1110,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:11.743764"
+    "timestamp": "2026-10-13T22:02:56.291767"
   },
   {
     "model": "random_forest",
     "year": 1990,
     "drift_severity": "LOW",
-    "drift_score": 0.725,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 25.62,
@@ -1100,7 +1127,7 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:12.364593"
+    "timestamp": "2026-10-13T22:02:57.179148"
   },
   {
     "model": "random_forest",
@@ -1117,30 +1144,33 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:12.983794"
+    "timestamp": "2026-10-13T22:02:58.081922"
   },
   {
     "model": "random_forest",
     "year": 1992,
-    "drift_severity": "LOW",
-    "drift_score": 0.8333,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "HIGH",
+    "drift_score": 1.0,
+    "strategy_used": "windowed_retrain",
+    "adaptation_applied": true,
     "original_prediction": 25.33,
-    "adapted_prediction": null,
+    "adapted_prediction": 29.25,
     "original_interval": [
       15.58,
       35.07
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      19.51,
+      39.0
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:13.559990"
+    "timestamp": "2026-10-13T22:03:17.205150"
   },
   {
     "model": "random_forest",
     "year": 1993,
     "drift_severity": "LOW",
-    "drift_score": 0.2558,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 33.02,
@@ -1151,13 +1181,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:14.142675"
+    "timestamp": "2026-10-13T22:03:18.155207"
   },
   {
     "model": "random_forest",
     "year": 1994,
     "drift_severity": "LOW",
-    "drift_score": 0.4773,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 26.87,
@@ -1168,13 +1198,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:14.743978"
+    "timestamp": "2026-10-13T22:03:19.123888"
   },
   {
     "model": "random_forest",
     "year": 1995,
     "drift_severity": "LOW",
-    "drift_score": 0.3333,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 26.48,
@@ -1185,13 +1215,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:15.376379"
+    "timestamp": "2026-10-13T22:03:20.114965"
   },
   {
     "model": "random_forest",
     "year": 1996,
     "drift_severity": "LOW",
-    "drift_score": 0.5217,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 29.01,
@@ -1202,7 +1232,7 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:15.976482"
+    "timestamp": "2026-10-13T22:03:21.008829"
   },
   {
     "model": "random_forest",
@@ -1219,13 +1249,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:16.553420"
+    "timestamp": "2026-10-13T22:03:22.040557"
   },
   {
     "model": "random_forest",
     "year": 1998,
     "drift_severity": "LOW",
-    "drift_score": 0.2708,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 26.99,
@@ -1236,13 +1266,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:17.098272"
+    "timestamp": "2026-10-13T22:03:23.027020"
   },
   {
     "model": "random_forest",
     "year": 1999,
     "drift_severity": "MODERATE",
-    "drift_score": 0.9388,
+    "drift_score": 0.5,
     "strategy_used": "bias_correction",
     "adaptation_applied": true,
     "original_prediction": 24.2,
@@ -1256,13 +1286,13 @@
       42.19
     ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:17.660513"
+    "timestamp": "2026-10-13T22:03:23.995841"
   },
   {
     "model": "random_forest",
     "year": 2000,
     "drift_severity": "LOW",
-    "drift_score": 0.72,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 25.14,
@@ -1273,13 +1303,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:18.245862"
+    "timestamp": "2026-10-13T22:03:24.984646"
   },
   {
     "model": "random_forest",
     "year": 2001,
     "drift_severity": "LOW",
-    "drift_score": 0.4314,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 29.81,
@@ -1290,13 +1320,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:18.830918"
+    "timestamp": "2026-10-13T22:03:25.996044"
   },
   {
     "model": "random_forest",
     "year": 2002,
     "drift_severity": "LOW",
-    "drift_score": 0.1538,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 25.18,
@@ -1307,13 +1337,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:19.439403"
+    "timestamp": "2026-10-13T22:03:27.048896"
   },
   {
     "model": "random_forest",
     "year": 2003,
     "drift_severity": "LOW",
-    "drift_score": 0.5472,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 34.07,
@@ -1324,13 +1354,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:19.993817"
+    "timestamp": "2026-10-13T22:03:28.133292"
   },
   {
     "model": "random_forest",
     "year": 2004,
     "drift_severity": "LOW",
-    "drift_score": 0.1296,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 27.69,
@@ -1341,13 +1371,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:20.659746"
+    "timestamp": "2026-10-13T22:03:29.231474"
   },
   {
     "model": "random_forest",
     "year": 2005,
     "drift_severity": "LOW",
-    "drift_score": 0.8,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 29.3,
@@ -1358,13 +1388,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:21.279912"
+    "timestamp": "2026-10-13T22:03:30.256515"
   },
   {
     "model": "random_forest",
     "year": 2006,
     "drift_severity": "LOW",
-    "drift_score": 0.3571,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 28.33,
@@ -1375,13 +1405,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:21.843216"
+    "timestamp": "2026-10-13T22:03:31.288568"
   },
   {
     "model": "random_forest",
     "year": 2007,
     "drift_severity": "LOW",
-    "drift_score": 0.5088,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 33.12,
@@ -1392,13 +1422,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:22.426564"
+    "timestamp": "2026-10-13T22:03:32.308685"
   },
   {
     "model": "random_forest",
     "year": 2008,
     "drift_severity": "LOW",
-    "drift_score": 0.6897,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 27.47,
@@ -1409,13 +1439,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:22.976941"
+    "timestamp": "2026-10-13T22:03:33.350486"
   },
   {
     "model": "random_forest",
     "year": 2009,
     "drift_severity": "LOW",
-    "drift_score": 0.6949,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 30.94,
@@ -1426,13 +1456,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:23.590792"
+    "timestamp": "2026-10-13T22:03:34.392449"
   },
   {
     "model": "random_forest",
     "year": 2010,
     "drift_severity": "LOW",
-    "drift_score": 0.5333,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 31.65,
@@ -1443,50 +1473,53 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:24.247756"
+    "timestamp": "2026-10-13T22:03:35.457307"
   },
   {
     "model": "random_forest",
     "year": 2011,
-    "drift_severity": "LOW",
-    "drift_score": 0.7869,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "HIGH",
+    "drift_score": 1.0,
+    "strategy_used": "windowed_retrain",
+    "adaptation_applied": true,
     "original_prediction": 26.72,
-    "adapted_prediction": null,
+    "adapted_prediction": 33.24,
     "original_interval": [
       10.6,
       42.84
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      17.12,
+      49.36
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:24.875730"
+    "timestamp": "2026-10-13T22:03:56.548730"
   },
   {
     "model": "random_forest",
     "year": 2012,
-    "drift_severity": "MODERATE",
-    "drift_score": 0.9355,
-    "strategy_used": "bias_correction",
+    "drift_severity": "HIGH",
+    "drift_score": 1.0,
+    "strategy_used": "windowed_retrain",
     "adaptation_applied": true,
     "original_prediction": 31.9,
-    "adapted_prediction": 31.92,
+    "adapted_prediction": 33.76,
     "original_interval": [
       15.78,
       48.02
     ],
     "adapted_interval": [
-      15.79,
-      48.04
+      17.63,
+      49.88
     ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:25.489853"
+    "timestamp": "2026-10-13T22:04:18.605799"
   },
   {
     "model": "random_forest",
     "year": 2013,
     "drift_severity": "LOW",
-    "drift_score": 0.4444,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 31.45,
@@ -1497,13 +1530,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:26.109026"
+    "timestamp": "2026-10-13T22:04:19.730864"
   },
   {
     "model": "random_forest",
     "year": 2014,
     "drift_severity": "LOW",
-    "drift_score": 0.8125,
+    "drift_score": 0.3333,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 25.59,
@@ -1514,13 +1547,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:26.692197"
+    "timestamp": "2026-10-13T22:04:20.634104"
   },
   {
     "model": "random_forest",
     "year": 2015,
     "drift_severity": "LOW",
-    "drift_score": 0.5538,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 30.74,
@@ -1531,13 +1564,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:27.275531"
+    "timestamp": "2026-10-13T22:04:21.688200"
   },
   {
     "model": "random_forest",
     "year": 2016,
     "drift_severity": "LOW",
-    "drift_score": 0.697,
+    "drift_score": 0.3333,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 34.57,
@@ -1548,30 +1581,33 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:27.916141"
+    "timestamp": "2026-10-13T22:04:22.675937"
   },
   {
     "model": "random_forest",
     "year": 2017,
-    "drift_severity": "LOW",
-    "drift_score": 0.8358,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.6667,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
     "original_prediction": 36.25,
-    "adapted_prediction": null,
+    "adapted_prediction": 41.01,
     "original_interval": [
       19.9,
       52.6
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      24.67,
+      57.36
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:28.592405"
+    "timestamp": "2026-10-13T22:04:23.691184"
   },
   {
     "model": "random_forest",
     "year": 2018,
     "drift_severity": "LOW",
-    "drift_score": 0.0441,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 28.45,
@@ -1582,13 +1618,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:29.227066"
+    "timestamp": "2026-10-13T22:04:24.580477"
   },
   {
     "model": "random_forest",
     "year": 2019,
     "drift_severity": "LOW",
-    "drift_score": 0.3623,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 32.62,
@@ -1599,13 +1635,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:29.825680"
+    "timestamp": "2026-10-13T22:04:25.427955"
   },
   {
     "model": "random_forest",
     "year": 2020,
     "drift_severity": "LOW",
-    "drift_score": 0.5143,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 36.24,
@@ -1616,13 +1652,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:30.474417"
+    "timestamp": "2026-10-13T22:04:26.329585"
   },
   {
     "model": "random_forest",
     "year": 2021,
     "drift_severity": "LOW",
-    "drift_score": 0.1127,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 34.29,
@@ -1633,13 +1669,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:31.091819"
+    "timestamp": "2026-10-13T22:04:27.690471"
   },
   {
     "model": "random_forest",
     "year": 2022,
     "drift_severity": "LOW",
-    "drift_score": 0.6389,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 32.95,
@@ -1650,13 +1686,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:31.711900"
+    "timestamp": "2026-10-13T22:04:29.030516"
   },
   {
     "model": "random_forest",
     "year": 2023,
     "drift_severity": "LOW",
-    "drift_score": 0.5342,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 31.9,
@@ -1667,13 +1703,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:32.336530"
+    "timestamp": "2026-10-13T22:04:30.646279"
   },
   {
     "model": "random_forest",
     "year": 2025,
     "drift_severity": "MODERATE",
-    "drift_score": 0.9189,
+    "drift_score": 0.5,
     "strategy_used": "bias_correction",
     "adaptation_applied": true,
     "original_prediction": 33.51,
@@ -1687,13 +1723,13 @@
       53.23
     ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:32.925014"
+    "timestamp": "2026-10-13T22:04:32.019925"
   },
   {
     "model": "xgboost",
     "year": 1976,
-    "drift_severity": "LOW",
-    "drift_score": 0.7692,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.5,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 19.99,
@@ -1704,84 +1740,93 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:33.731493"
+    "timestamp": "2026-10-13T22:04:32.990866"
   },
   {
     "model": "xgboost",
     "year": 1977,
-    "drift_severity": "MODERATE",
-    "drift_score": 0.963,
-    "strategy_used": "bias_correction",
+    "drift_severity": "HIGH",
+    "drift_score": 1.0,
+    "strategy_used": "windowed_retrain",
     "adaptation_applied": true,
     "original_prediction": 22.15,
-    "adapted_prediction": 22.99,
+    "adapted_prediction": 28.12,
     "original_interval": [
       22.15,
       22.15
     ],
     "adapted_interval": [
-      22.99,
-      22.99
+      28.12,
+      28.12
     ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:34.724719"
+    "timestamp": "2026-10-13T22:04:58.325117"
   },
   {
     "model": "xgboost",
     "year": 1978,
-    "drift_severity": "LOW",
-    "drift_score": 0.8929,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.8333,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
     "original_prediction": 25.64,
-    "adapted_prediction": null,
+    "adapted_prediction": 28.65,
     "original_interval": [
       25.64,
       25.64
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      28.65,
+      28.65
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:35.688391"
+    "timestamp": "2026-10-13T22:04:59.243726"
   },
   {
     "model": "xgboost",
     "year": 1979,
-    "drift_severity": "LOW",
-    "drift_score": 0.7931,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.5,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
     "original_prediction": 35.38,
-    "adapted_prediction": null,
+    "adapted_prediction": 39.15,
     "original_interval": [
       35.38,
       35.38
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      39.15,
+      39.15
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:36.653921"
+    "timestamp": "2026-10-13T22:05:00.248442"
   },
   {
     "model": "xgboost",
     "year": 1980,
-    "drift_severity": "LOW",
-    "drift_score": 0.7667,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "HIGH",
+    "drift_score": 1.0,
+    "strategy_used": "windowed_retrain",
+    "adaptation_applied": true,
     "original_prediction": 28.58,
-    "adapted_prediction": null,
+    "adapted_prediction": 29.71,
     "original_interval": [
       28.58,
       28.58
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      29.71,
+      29.71
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:37.703994"
+    "timestamp": "2026-10-13T22:05:24.662697"
   },
   {
     "model": "xgboost",
     "year": 1981,
     "drift_severity": "LOW",
-    "drift_score": 0.4194,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 25.62,
@@ -1792,13 +1837,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:38.810252"
+    "timestamp": "2026-10-13T22:05:25.882219"
   },
   {
     "model": "xgboost",
     "year": 1982,
     "drift_severity": "LOW",
-    "drift_score": 0.5,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 32.29,
@@ -1809,13 +1854,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:39.820642"
+    "timestamp": "2026-10-13T22:05:26.949243"
   },
   {
     "model": "xgboost",
     "year": 1983,
     "drift_severity": "LOW",
-    "drift_score": 0.3939,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 26.82,
@@ -1826,13 +1871,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:40.818436"
+    "timestamp": "2026-10-13T22:05:27.936938"
   },
   {
     "model": "xgboost",
     "year": 1984,
     "drift_severity": "LOW",
-    "drift_score": 0.5882,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 35.25,
@@ -1843,13 +1888,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:41.924621"
+    "timestamp": "2026-10-13T22:05:28.901737"
   },
   {
     "model": "xgboost",
     "year": 1985,
     "drift_severity": "LOW",
-    "drift_score": 0.7143,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 24.07,
@@ -1860,13 +1905,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:42.932595"
+    "timestamp": "2026-10-13T22:05:29.908941"
   },
   {
     "model": "xgboost",
     "year": 1986,
     "drift_severity": "LOW",
-    "drift_score": 0.8056,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 24.81,
@@ -1877,13 +1922,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:43.917720"
+    "timestamp": "2026-10-13T22:05:30.966274"
   },
   {
     "model": "xgboost",
     "year": 1987,
     "drift_severity": "LOW",
-    "drift_score": 0.3784,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 26.46,
@@ -1894,13 +1939,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:45.151523"
+    "timestamp": "2026-10-13T22:05:31.946107"
   },
   {
     "model": "xgboost",
     "year": 1988,
     "drift_severity": "LOW",
-    "drift_score": 0.1842,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 32.34,
@@ -1911,13 +1956,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:46.234311"
+    "timestamp": "2026-10-13T22:05:33.060634"
   },
   {
     "model": "xgboost",
     "year": 1989,
     "drift_severity": "LOW",
-    "drift_score": 0.0256,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 23.68,
@@ -1928,13 +1973,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:47.220377"
+    "timestamp": "2026-10-13T22:05:34.377723"
   },
   {
     "model": "xgboost",
     "year": 1990,
     "drift_severity": "LOW",
-    "drift_score": 0.725,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 26.93,
@@ -1945,7 +1990,7 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:48.226052"
+    "timestamp": "2026-10-13T22:05:36.181043"
   },
   {
     "model": "xgboost",
@@ -1962,30 +2007,33 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:49.317442"
+    "timestamp": "2026-10-13T22:05:37.863309"
   },
   {
     "model": "xgboost",
     "year": 1992,
-    "drift_severity": "LOW",
-    "drift_score": 0.8333,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "HIGH",
+    "drift_score": 1.0,
+    "strategy_used": "windowed_retrain",
+    "adaptation_applied": true,
     "original_prediction": 24.94,
-    "adapted_prediction": null,
+    "adapted_prediction": 27.55,
     "original_interval": [
       15.39,
       34.49
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      18.0,
+      37.1
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:50.340714"
+    "timestamp": "2026-10-13T22:06:03.545996"
   },
   {
     "model": "xgboost",
     "year": 1993,
     "drift_severity": "LOW",
-    "drift_score": 0.2558,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 29.45,
@@ -1996,13 +2044,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:51.461199"
+    "timestamp": "2026-10-13T22:06:04.618175"
   },
   {
     "model": "xgboost",
     "year": 1994,
     "drift_severity": "LOW",
-    "drift_score": 0.4773,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 26.0,
@@ -2013,13 +2061,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:52.573923"
+    "timestamp": "2026-10-13T22:06:05.739829"
   },
   {
     "model": "xgboost",
     "year": 1995,
     "drift_severity": "LOW",
-    "drift_score": 0.3333,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 23.11,
@@ -2030,13 +2078,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:53.770705"
+    "timestamp": "2026-10-13T22:06:06.919951"
   },
   {
     "model": "xgboost",
     "year": 1996,
     "drift_severity": "LOW",
-    "drift_score": 0.5217,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 30.15,
@@ -2047,7 +2095,7 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:54.822555"
+    "timestamp": "2026-10-13T22:06:08.164611"
   },
   {
     "model": "xgboost",
@@ -2064,13 +2112,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:55.839186"
+    "timestamp": "2026-10-13T22:06:10.639890"
   },
   {
     "model": "xgboost",
     "year": 1998,
     "drift_severity": "LOW",
-    "drift_score": 0.2708,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 26.66,
@@ -2081,13 +2129,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:56.866446"
+    "timestamp": "2026-10-13T22:06:12.356560"
   },
   {
     "model": "xgboost",
     "year": 1999,
     "drift_severity": "MODERATE",
-    "drift_score": 0.9388,
+    "drift_score": 0.5,
     "strategy_used": "bias_correction",
     "adaptation_applied": true,
     "original_prediction": 23.34,
@@ -2101,13 +2149,13 @@
       42.42
     ],
     "details": {},
-    "timestamp": "2026-10-11T23:46:57.906883"
+    "timestamp": "2026-10-13T22:06:13.745473"
   },
   {
     "model": "xgboost",
     "year": 2000,
     "drift_severity": "LOW",
-    "drift_score": 0.72,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 22.14,
@@ -2118,13 +2166,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:46:58.956767"
+    "timestamp": "2026-10-13T22:06:15.295701"
   },
   {
     "model": "xgboost",
     "year": 2001,
     "drift_severity": "LOW",
-    "drift_score": 0.4314,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 29.61,
@@ -2135,13 +2183,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:00.103666"
+    "timestamp": "2026-10-13T22:06:16.890636"
   },
   {
     "model": "xgboost",
     "year": 2002,
     "drift_severity": "LOW",
-    "drift_score": 0.1538,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 24.38,
@@ -2152,13 +2200,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:01.252315"
+    "timestamp": "2026-10-13T22:06:17.969424"
   },
   {
     "model": "xgboost",
     "year": 2003,
     "drift_severity": "LOW",
-    "drift_score": 0.5472,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 35.49,
@@ -2169,13 +2217,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:02.459772"
+    "timestamp": "2026-10-13T22:06:19.048805"
   },
   {
     "model": "xgboost",
     "year": 2004,
     "drift_severity": "LOW",
-    "drift_score": 0.1296,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 28.75,
@@ -2186,13 +2234,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:03.500440"
+    "timestamp": "2026-10-13T22:06:20.196210"
   },
   {
     "model": "xgboost",
     "year": 2005,
     "drift_severity": "LOW",
-    "drift_score": 0.8,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 28.49,
@@ -2203,13 +2251,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:04.575011"
+    "timestamp": "2026-10-13T22:06:21.567186"
   },
   {
     "model": "xgboost",
     "year": 2006,
     "drift_severity": "LOW",
-    "drift_score": 0.3571,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 30.17,
@@ -2220,13 +2268,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:05.614826"
+    "timestamp": "2026-10-13T22:06:22.740414"
   },
   {
     "model": "xgboost",
     "year": 2007,
     "drift_severity": "LOW",
-    "drift_score": 0.5088,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 33.35,
@@ -2237,13 +2285,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:06.699655"
+    "timestamp": "2026-10-13T22:06:24.185545"
   },
   {
     "model": "xgboost",
     "year": 2008,
     "drift_severity": "LOW",
-    "drift_score": 0.6897,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 26.98,
@@ -2254,13 +2302,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:07.758156"
+    "timestamp": "2026-10-13T22:06:25.327495"
   },
   {
     "model": "xgboost",
     "year": 2009,
     "drift_severity": "LOW",
-    "drift_score": 0.6949,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 30.48,
@@ -2271,13 +2319,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:08.889413"
+    "timestamp": "2026-10-13T22:06:26.902280"
   },
   {
     "model": "xgboost",
     "year": 2010,
     "drift_severity": "LOW",
-    "drift_score": 0.5333,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 31.58,
@@ -2288,50 +2336,53 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:09.972588"
+    "timestamp": "2026-10-13T22:06:28.406182"
   },
   {
     "model": "xgboost",
     "year": 2011,
-    "drift_severity": "LOW",
-    "drift_score": 0.7869,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "HIGH",
+    "drift_score": 1.0,
+    "strategy_used": "windowed_retrain",
+    "adaptation_applied": true,
     "original_prediction": 28.13,
-    "adapted_prediction": null,
+    "adapted_prediction": 34.92,
     "original_interval": [
       11.47,
       44.78
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      18.26,
+      51.58
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:47:11.334717"
+    "timestamp": "2026-10-13T22:06:53.801533"
   },
   {
     "model": "xgboost",
     "year": 2012,
-    "drift_severity": "MODERATE",
-    "drift_score": 0.9355,
-    "strategy_used": "bias_correction",
+    "drift_severity": "HIGH",
+    "drift_score": 1.0,
+    "strategy_used": "windowed_retrain",
     "adaptation_applied": true,
     "original_prediction": 32.9,
-    "adapted_prediction": 32.83,
+    "adapted_prediction": 32.96,
     "original_interval": [
       16.24,
       49.56
     ],
     "adapted_interval": [
-      16.17,
-      49.49
+      16.3,
+      49.62
     ],
     "details": {},
-    "timestamp": "2026-10-11T23:47:12.416291"
+    "timestamp": "2026-10-13T22:07:19.853298"
   },
   {
     "model": "xgboost",
     "year": 2013,
     "drift_severity": "LOW",
-    "drift_score": 0.4444,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 33.12,
@@ -2342,13 +2393,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:13.497551"
+    "timestamp": "2026-10-13T22:07:21.124764"
   },
   {
     "model": "xgboost",
     "year": 2014,
     "drift_severity": "LOW",
-    "drift_score": 0.8125,
+    "drift_score": 0.3333,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 22.92,
@@ -2359,13 +2410,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:14.655663"
+    "timestamp": "2026-10-13T22:07:22.485940"
   },
   {
     "model": "xgboost",
     "year": 2015,
     "drift_severity": "LOW",
-    "drift_score": 0.5538,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 28.54,
@@ -2376,13 +2427,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:15.737873"
+    "timestamp": "2026-10-13T22:07:23.539570"
   },
   {
     "model": "xgboost",
     "year": 2016,
     "drift_severity": "LOW",
-    "drift_score": 0.697,
+    "drift_score": 0.3333,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 38.59,
@@ -2393,30 +2444,33 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:16.885083"
+    "timestamp": "2026-10-13T22:07:24.623731"
   },
   {
     "model": "xgboost",
     "year": 2017,
-    "drift_severity": "LOW",
-    "drift_score": 0.8358,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.6667,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
     "original_prediction": 36.75,
-    "adapted_prediction": null,
+    "adapted_prediction": 41.25,
     "original_interval": [
       20.09,
       53.41
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      24.59,
+      57.91
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:47:17.988770"
+    "timestamp": "2026-10-13T22:07:25.830281"
   },
   {
     "model": "xgboost",
     "year": 2018,
     "drift_severity": "LOW",
-    "drift_score": 0.0441,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 28.73,
@@ -2427,13 +2481,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:19.088615"
+    "timestamp": "2026-10-13T22:07:27.030771"
   },
   {
     "model": "xgboost",
     "year": 2019,
     "drift_severity": "LOW",
-    "drift_score": 0.3623,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 33.76,
@@ -2444,13 +2498,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:20.439186"
+    "timestamp": "2026-10-13T22:07:28.766608"
   },
   {
     "model": "xgboost",
     "year": 2020,
     "drift_severity": "LOW",
-    "drift_score": 0.5143,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 37.81,
@@ -2461,13 +2515,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:21.631398"
+    "timestamp": "2026-10-13T22:07:29.916769"
   },
   {
     "model": "xgboost",
     "year": 2021,
     "drift_severity": "LOW",
-    "drift_score": 0.1127,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 33.83,
@@ -2478,13 +2532,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:22.771796"
+    "timestamp": "2026-10-13T22:07:30.922271"
   },
   {
     "model": "xgboost",
     "year": 2022,
     "drift_severity": "LOW",
-    "drift_score": 0.6389,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 33.44,
@@ -2495,13 +2549,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:23.883621"
+    "timestamp": "2026-10-13T22:07:32.145940"
   },
   {
     "model": "xgboost",
     "year": 2023,
     "drift_severity": "LOW",
-    "drift_score": 0.5342,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 33.21,
@@ -2512,13 +2566,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:25.004863"
+    "timestamp": "2026-10-13T22:07:33.751629"
   },
   {
     "model": "xgboost",
     "year": 2025,
     "drift_severity": "MODERATE",
-    "drift_score": 0.9189,
+    "drift_score": 0.5,
     "strategy_used": "bias_correction",
     "adaptation_applied": true,
     "original_prediction": 35.46,
@@ -2532,13 +2586,13 @@
       53.28
     ],
     "details": {},
-    "timestamp": "2026-10-11T23:47:26.129362"
+    "timestamp": "2026-10-13T22:07:35.171938"
   },
   {
     "model": "detrended_ridge",
     "year": 1976,
-    "drift_severity": "LOW",
-    "drift_score": 0.7692,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.5,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 36.41,
@@ -2549,84 +2603,93 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:26.176517"
+    "timestamp": "2026-10-13T22:07:35.249644"
   },
   {
     "model": "detrended_ridge",
     "year": 1977,
-    "drift_severity": "MODERATE",
-    "drift_score": 0.963,
-    "strategy_used": "bias_correction",
+    "drift_severity": "HIGH",
+    "drift_score": 1.0,
+    "strategy_used": "windowed_retrain",
     "adaptation_applied": true,
     "original_prediction": 35.82,
-    "adapted_prediction": 31.18,
+    "adapted_prediction": 35.82,
     "original_interval": [
       35.82,
       35.82
     ],
     "adapted_interval": [
-      31.18,
-      31.18
+      35.82,
+      35.82
     ],
     "details": {},
-    "timestamp": "2026-10-11T23:47:26.209402"
+    "timestamp": "2026-10-13T22:07:35.488132"
   },
   {
     "model": "detrended_ridge",
     "year": 1978,
-    "drift_severity": "LOW",
-    "drift_score": 0.8929,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.8333,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
     "original_prediction": 39.14,
-    "adapted_prediction": null,
+    "adapted_prediction": 34.64,
     "original_interval": [
       39.14,
       39.14
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      34.64,
+      34.64
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:47:26.255286"
+    "timestamp": "2026-10-13T22:07:35.567448"
   },
   {
     "model": "detrended_ridge",
     "year": 1979,
-    "drift_severity": "LOW",
-    "drift_score": 0.7931,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.5,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
     "original_prediction": 38.07,
-    "adapted_prediction": null,
+    "adapted_prediction": 33.12,
     "original_interval": [
       38.07,
       38.07
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      33.12,
+      33.12
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:47:26.294324"
+    "timestamp": "2026-10-13T22:07:35.646598"
   },
   {
     "model": "detrended_ridge",
     "year": 1980,
-    "drift_severity": "LOW",
-    "drift_score": 0.7667,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "HIGH",
+    "drift_score": 1.0,
+    "strategy_used": "windowed_retrain",
+    "adaptation_applied": true,
     "original_prediction": 40.03,
-    "adapted_prediction": null,
+    "adapted_prediction": 37.7,
     "original_interval": [
       40.03,
       40.03
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      37.7,
+      37.7
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:47:26.333938"
+    "timestamp": "2026-10-13T22:07:35.916220"
   },
   {
     "model": "detrended_ridge",
     "year": 1981,
     "drift_severity": "LOW",
-    "drift_score": 0.4194,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 33.21,
@@ -2637,13 +2700,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:26.360101"
+    "timestamp": "2026-10-13T22:07:36.035533"
   },
   {
     "model": "detrended_ridge",
     "year": 1982,
     "drift_severity": "LOW",
-    "drift_score": 0.5,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 39.27,
@@ -2654,13 +2717,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:26.411261"
+    "timestamp": "2026-10-13T22:07:36.135969"
   },
   {
     "model": "detrended_ridge",
     "year": 1983,
     "drift_severity": "LOW",
-    "drift_score": 0.3939,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 39.65,
@@ -2671,13 +2734,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:26.441128"
+    "timestamp": "2026-10-13T22:07:36.234454"
   },
   {
     "model": "detrended_ridge",
     "year": 1984,
     "drift_severity": "LOW",
-    "drift_score": 0.5882,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 42.2,
@@ -2688,13 +2751,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:26.487056"
+    "timestamp": "2026-10-13T22:07:36.336564"
   },
   {
     "model": "detrended_ridge",
     "year": 1985,
     "drift_severity": "LOW",
-    "drift_score": 0.7143,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 37.73,
@@ -2705,13 +2768,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:26.522220"
+    "timestamp": "2026-10-13T22:07:36.434927"
   },
   {
     "model": "detrended_ridge",
     "year": 1986,
     "drift_severity": "LOW",
-    "drift_score": 0.8056,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 37.14,
@@ -2722,13 +2785,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:26.557619"
+    "timestamp": "2026-10-13T22:07:36.535504"
   },
   {
     "model": "detrended_ridge",
     "year": 1987,
     "drift_severity": "LOW",
-    "drift_score": 0.3784,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 36.31,
@@ -2739,13 +2802,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:26.605248"
+    "timestamp": "2026-10-13T22:07:36.632739"
   },
   {
     "model": "detrended_ridge",
     "year": 1988,
     "drift_severity": "LOW",
-    "drift_score": 0.1842,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 37.98,
@@ -2756,13 +2819,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:26.638927"
+    "timestamp": "2026-10-13T22:07:36.737723"
   },
   {
     "model": "detrended_ridge",
     "year": 1989,
     "drift_severity": "LOW",
-    "drift_score": 0.0256,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 34.88,
@@ -2773,13 +2836,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:26.688551"
+    "timestamp": "2026-10-13T22:07:36.846002"
   },
   {
     "model": "detrended_ridge",
     "year": 1990,
     "drift_severity": "LOW",
-    "drift_score": 0.725,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 35.02,
@@ -2790,7 +2853,7 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:26.762462"
+    "timestamp": "2026-10-13T22:07:36.956087"
   },
   {
     "model": "detrended_ridge",
@@ -2807,30 +2870,33 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:26.845213"
+    "timestamp": "2026-10-13T22:07:37.065637"
   },
   {
     "model": "detrended_ridge",
     "year": 1992,
-    "drift_severity": "LOW",
-    "drift_score": 0.8333,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "HIGH",
+    "drift_score": 1.0,
+    "strategy_used": "windowed_retrain",
+    "adaptation_applied": true,
     "original_prediction": 32.22,
-    "adapted_prediction": null,
+    "adapted_prediction": 28.36,
     "original_interval": [
       18.32,
       46.13
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      14.45,
+      42.27
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:47:26.897506"
+    "timestamp": "2026-10-13T22:07:37.337589"
   },
   {
     "model": "detrended_ridge",
     "year": 1993,
     "drift_severity": "LOW",
-    "drift_score": 0.2558,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 39.93,
@@ -2841,13 +2907,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:26.941408"
+    "timestamp": "2026-10-13T22:07:37.496258"
   },
   {
     "model": "detrended_ridge",
     "year": 1994,
     "drift_severity": "LOW",
-    "drift_score": 0.4773,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 36.4,
@@ -2858,13 +2924,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:26.987136"
+    "timestamp": "2026-10-13T22:07:37.691778"
   },
   {
     "model": "detrended_ridge",
     "year": 1995,
     "drift_severity": "LOW",
-    "drift_score": 0.3333,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 34.96,
@@ -2875,13 +2941,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:27.040914"
+    "timestamp": "2026-10-13T22:07:37.853662"
   },
   {
     "model": "detrended_ridge",
     "year": 1996,
     "drift_severity": "LOW",
-    "drift_score": 0.5217,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 35.16,
@@ -2892,7 +2958,7 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:27.089226"
+    "timestamp": "2026-10-13T22:07:37.997546"
   },
   {
     "model": "detrended_ridge",
@@ -2909,13 +2975,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:27.139270"
+    "timestamp": "2026-10-13T22:07:38.132737"
   },
   {
     "model": "detrended_ridge",
     "year": 1998,
     "drift_severity": "LOW",
-    "drift_score": 0.2708,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 34.56,
@@ -2926,13 +2992,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:27.188629"
+    "timestamp": "2026-10-13T22:07:38.261869"
   },
   {
     "model": "detrended_ridge",
     "year": 1999,
     "drift_severity": "MODERATE",
-    "drift_score": 0.9388,
+    "drift_score": 0.5,
     "strategy_used": "bias_correction",
     "adaptation_applied": true,
     "original_prediction": 33.21,
@@ -2946,13 +3012,13 @@
       48.28
     ],
     "details": {},
-    "timestamp": "2026-10-11T23:47:27.243971"
+    "timestamp": "2026-10-13T22:07:38.393383"
   },
   {
     "model": "detrended_ridge",
     "year": 2000,
     "drift_severity": "LOW",
-    "drift_score": 0.72,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 30.75,
@@ -2963,13 +3029,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:27.288644"
+    "timestamp": "2026-10-13T22:07:38.539659"
   },
   {
     "model": "detrended_ridge",
     "year": 2001,
     "drift_severity": "LOW",
-    "drift_score": 0.4314,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 40.49,
@@ -2980,13 +3046,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:27.345721"
+    "timestamp": "2026-10-13T22:07:38.688400"
   },
   {
     "model": "detrended_ridge",
     "year": 2002,
     "drift_severity": "LOW",
-    "drift_score": 0.1538,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 34.18,
@@ -2997,13 +3063,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:27.402546"
+    "timestamp": "2026-10-13T22:07:38.965039"
   },
   {
     "model": "detrended_ridge",
     "year": 2003,
     "drift_severity": "LOW",
-    "drift_score": 0.5472,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 42.2,
@@ -3014,13 +3080,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:27.453742"
+    "timestamp": "2026-10-13T22:07:39.187502"
   },
   {
     "model": "detrended_ridge",
     "year": 2004,
     "drift_severity": "LOW",
-    "drift_score": 0.1296,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 35.76,
@@ -3031,13 +3097,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:27.517260"
+    "timestamp": "2026-10-13T22:07:39.370280"
   },
   {
     "model": "detrended_ridge",
     "year": 2005,
     "drift_severity": "LOW",
-    "drift_score": 0.8,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 36.9,
@@ -3048,13 +3114,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:27.571896"
+    "timestamp": "2026-10-13T22:07:39.586275"
   },
   {
     "model": "detrended_ridge",
     "year": 2006,
     "drift_severity": "LOW",
-    "drift_score": 0.3571,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 35.46,
@@ -3065,13 +3131,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:27.627603"
+    "timestamp": "2026-10-13T22:07:39.755786"
   },
   {
     "model": "detrended_ridge",
     "year": 2007,
     "drift_severity": "LOW",
-    "drift_score": 0.5088,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 36.7,
@@ -3082,13 +3148,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:27.691200"
+    "timestamp": "2026-10-13T22:07:39.995673"
   },
   {
     "model": "detrended_ridge",
     "year": 2008,
     "drift_severity": "LOW",
-    "drift_score": 0.6897,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 32.3,
@@ -3099,13 +3165,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:27.749715"
+    "timestamp": "2026-10-13T22:07:40.163716"
   },
   {
     "model": "detrended_ridge",
     "year": 2009,
     "drift_severity": "LOW",
-    "drift_score": 0.6949,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 35.67,
@@ -3116,13 +3182,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:27.803467"
+    "timestamp": "2026-10-13T22:07:40.322694"
   },
   {
     "model": "detrended_ridge",
     "year": 2010,
     "drift_severity": "LOW",
-    "drift_score": 0.5333,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 37.99,
@@ -3133,50 +3199,53 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:27.868627"
+    "timestamp": "2026-10-13T22:07:40.481097"
   },
   {
     "model": "detrended_ridge",
     "year": 2011,
-    "drift_severity": "LOW",
-    "drift_score": 0.7869,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "HIGH",
+    "drift_score": 1.0,
+    "strategy_used": "windowed_retrain",
+    "adaptation_applied": true,
     "original_prediction": 41.3,
-    "adapted_prediction": null,
+    "adapted_prediction": 35.5,
     "original_interval": [
       23.14,
       59.46
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      17.34,
+      53.65
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:47:27.920259"
+    "timestamp": "2026-10-13T22:07:40.792712"
   },
   {
     "model": "detrended_ridge",
     "year": 2012,
-    "drift_severity": "MODERATE",
-    "drift_score": 0.9355,
-    "strategy_used": "bias_correction",
+    "drift_severity": "HIGH",
+    "drift_score": 1.0,
+    "strategy_used": "windowed_retrain",
     "adaptation_applied": true,
     "original_prediction": 32.17,
-    "adapted_prediction": 27.32,
+    "adapted_prediction": 34.87,
     "original_interval": [
       14.01,
       50.33
     ],
     "adapted_interval": [
-      9.16,
-      45.48
+      16.71,
+      53.02
     ],
     "details": {},
-    "timestamp": "2026-10-11T23:47:27.985354"
+    "timestamp": "2026-10-13T22:07:41.138117"
   },
   {
     "model": "detrended_ridge",
     "year": 2013,
     "drift_severity": "LOW",
-    "drift_score": 0.4444,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 39.56,
@@ -3187,13 +3256,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:28.041392"
+    "timestamp": "2026-10-13T22:07:41.340722"
   },
   {
     "model": "detrended_ridge",
     "year": 2014,
     "drift_severity": "LOW",
-    "drift_score": 0.8125,
+    "drift_score": 0.3333,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 32.57,
@@ -3204,13 +3273,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:28.114899"
+    "timestamp": "2026-10-13T22:07:41.525686"
   },
   {
     "model": "detrended_ridge",
     "year": 2015,
     "drift_severity": "LOW",
-    "drift_score": 0.5538,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 30.23,
@@ -3221,13 +3290,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:28.193454"
+    "timestamp": "2026-10-13T22:07:41.727120"
   },
   {
     "model": "detrended_ridge",
     "year": 2016,
     "drift_severity": "LOW",
-    "drift_score": 0.697,
+    "drift_score": 0.3333,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 39.39,
@@ -3238,30 +3307,33 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:28.268748"
+    "timestamp": "2026-10-13T22:07:41.970225"
   },
   {
     "model": "detrended_ridge",
     "year": 2017,
-    "drift_severity": "LOW",
-    "drift_score": 0.8358,
-    "strategy_used": "none",
-    "adaptation_applied": false,
+    "drift_severity": "MODERATE",
+    "drift_score": 0.6667,
+    "strategy_used": "bias_correction",
+    "adaptation_applied": true,
     "original_prediction": 34.63,
-    "adapted_prediction": null,
+    "adapted_prediction": 36.59,
     "original_interval": [
       18.34,
       50.93
     ],
-    "adapted_interval": null,
+    "adapted_interval": [
+      20.29,
+      52.88
+    ],
     "details": {},
-    "timestamp": "2026-10-11T23:47:28.341789"
+    "timestamp": "2026-10-13T22:07:42.173109"
   },
   {
     "model": "detrended_ridge",
     "year": 2018,
     "drift_severity": "LOW",
-    "drift_score": 0.0441,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 39.75,
@@ -3272,13 +3344,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:28.421419"
+    "timestamp": "2026-10-13T22:07:42.410418"
   },
   {
     "model": "detrended_ridge",
     "year": 2019,
     "drift_severity": "LOW",
-    "drift_score": 0.3623,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 34.14,
@@ -3289,13 +3361,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:28.511777"
+    "timestamp": "2026-10-13T22:07:42.648935"
   },
   {
     "model": "detrended_ridge",
     "year": 2020,
     "drift_severity": "LOW",
-    "drift_score": 0.5143,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 41.16,
@@ -3306,13 +3378,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:28.586622"
+    "timestamp": "2026-10-13T22:07:42.874834"
   },
   {
     "model": "detrended_ridge",
     "year": 2021,
     "drift_severity": "LOW",
-    "drift_score": 0.1127,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 40.03,
@@ -3323,13 +3395,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:28.660468"
+    "timestamp": "2026-10-13T22:07:43.113891"
   },
   {
     "model": "detrended_ridge",
     "year": 2022,
     "drift_severity": "LOW",
-    "drift_score": 0.6389,
+    "drift_score": 0.0,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 39.45,
@@ -3340,13 +3412,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:28.733576"
+    "timestamp": "2026-10-13T22:07:43.369791"
   },
   {
     "model": "detrended_ridge",
     "year": 2023,
     "drift_severity": "LOW",
-    "drift_score": 0.5342,
+    "drift_score": 0.1667,
     "strategy_used": "none",
     "adaptation_applied": false,
     "original_prediction": 38.22,
@@ -3357,13 +3429,13 @@
     ],
     "adapted_interval": null,
     "details": {},
-    "timestamp": "2026-10-11T23:47:28.802128"
+    "timestamp": "2026-10-13T22:07:43.761631"
   },
   {
     "model": "detrended_ridge",
     "year": 2025,
     "drift_severity": "MODERATE",
-    "drift_score": 0.9189,
+    "drift_score": 0.5,
     "strategy_used": "bias_correction",
     "adaptation_applied": true,
     "original_prediction": 38.03,
@@ -3377,6 +3449,6 @@
       53.59
     ],
     "details": {},
-    "timestamp": "2026-10-11T23:47:28.868658"
+    "timestamp": "2026-10-13T22:07:44.053958"
   }
 ]

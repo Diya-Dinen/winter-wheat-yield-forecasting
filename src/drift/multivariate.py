@@ -21,8 +21,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.covariance import LedoitWolf
 
 from config.settings import (
-    DRIFT_P_HIGH,
-    DRIFT_P_MODERATE,
+    DRIFT_PERCENTILE_HIGH,
+    DRIFT_PERCENTILE_MODERATE,
     MIN_DRIFT_REF_YEARS,
     PCA_VARIANCE_RETAINED,
 )
@@ -43,6 +43,10 @@ class MultivariateDriftResult:
     pca_reconstruction_percentile: float  # Where test error falls relative to training
     mmd_score: float | None  # None if not enough test samples
     mahalanobis_pvalue: float | None = None  # empirical p-value vs leave-one-out null
+    mahalanobis_threshold_moderate: float | None = None  # dynamic 95th percentile of historical distances
+    mahalanobis_threshold_high: float | None = None      # dynamic 99th percentile of historical distances
+    pca_severity: str = "LOW"                            # from PCA percentile vs the same baseline
+    extreme_anomaly: bool = False                        # Mahalanobis or PCA beyond the 99th percentile
 
 
 # ---------------------------------------------------------------------------
@@ -74,12 +78,13 @@ def test_multivariate_drift(
     if X_test.ndim == 1:
         X_test = X_test.reshape(1, -1)
 
-    # --- Mahalanobis ---
-    maha_dist, maha_p = _calibrated_mahalanobis(X_train, X_test)
-    maha_sev = _pvalue_severity(maha_p)
+    # --- Mahalanobis (dynamic percentile thresholds from historical distribution) ---
+    maha_dist, maha_p, thr_mod, thr_high = _calibrated_mahalanobis(X_train, X_test)
+    maha_sev = _distance_severity(maha_dist, thr_mod, thr_high)
 
-    # --- PCA reconstruction ---
+    # --- PCA reconstruction (percentile vs leave-one-out historical errors) ---
     pca_error, pca_percentile = _pca_reconstruction_error(X_train, X_test)
+    pca_sev = _percentile_severity(pca_percentile, maha_p is not None)
 
     # --- MMD ---
     mmd = _mmd_rbf(X_train, X_test) if X_test.shape[0] >= 2 else None
@@ -91,6 +96,10 @@ def test_multivariate_drift(
         pca_reconstruction_percentile=pca_percentile,
         mmd_score=mmd,
         mahalanobis_pvalue=maha_p,
+        mahalanobis_threshold_moderate=thr_mod,
+        mahalanobis_threshold_high=thr_high,
+        pca_severity=pca_sev,
+        extreme_anomaly=(maha_sev == "HIGH" or pca_sev == "HIGH"),
     )
 
     logger.info(
@@ -108,31 +117,46 @@ def test_multivariate_drift(
 
 def _mahalanobis_distance(X_train: np.ndarray, X_test: np.ndarray) -> float:
     """
-    Compute the Mahalanobis distance of the test centroid from the
-    training distribution centroid, using the training covariance.
+    Mahalanobis distance of the test centroid from the training centroid.
+
+    Robust version: standardises features, imputes NaN/inf, shrinks the
+    covariance toward the identity and uses a pseudo-inverse, so it never
+    fails when n_samples < n_features (singular covariance).
     """
-    # Handle NaN by imputing column means
-    train_means = np.nanmean(X_train, axis=0)
-    X_train_clean = np.where(np.isnan(X_train), train_means, X_train)
-    X_test_clean = np.where(np.isnan(X_test), train_means, X_test)
+    X_train = np.asarray(X_train, dtype=float)
+    X_test = np.asarray(X_test, dtype=float)
+    if X_test.ndim == 1:
+        X_test = X_test.reshape(1, -1)
+    if X_train.shape[0] < 2:
+        return 0.0
 
-    mu = X_train_clean.mean(axis=0)
-    cov = np.cov(X_train_clean, rowvar=False)
+    # Replace inf with NaN, then impute NaN with training column means
+    X_train = np.where(np.isfinite(X_train), X_train, np.nan)
+    X_test = np.where(np.isfinite(X_test), X_test, np.nan)
+    col_means = np.nanmean(X_train, axis=0)
+    col_means = np.where(np.isfinite(col_means), col_means, 0.0)
+    X_train = np.where(np.isnan(X_train), col_means, X_train)
+    X_test = np.where(np.isnan(X_test), col_means, X_test)
 
-    # Regularize covariance to ensure invertibility
-    cov += np.eye(cov.shape[0]) * 1e-6
+    # Standardise (constant columns get sd = 1)
+    mu = X_train.mean(axis=0)
+    sd = X_train.std(axis=0, ddof=1)
+    sd = np.where(sd < 1e-12, 1.0, sd)
+    Z_train = (X_train - mu) / sd
+    z_test = (X_test.mean(axis=0) - mu) / sd
 
-    test_point = X_test_clean.mean(axis=0)  # centroid of test sample(s)
+    # Shrunk covariance -> always positive definite
+    p = Z_train.shape[1]
+    cov = np.atleast_2d(np.cov(Z_train, rowvar=False))
+    shrink = 0.1
+    cov = (1 - shrink) * cov + shrink * np.eye(p) + 1e-6 * np.eye(p)
+    cov_inv = np.linalg.pinv(cov)
 
-    try:
-        cov_inv = np.linalg.inv(cov)
-        dist = float(scipy_mahalanobis(test_point, mu, cov_inv))
-    except np.linalg.LinAlgError:
-        logger.warning("Covariance matrix not invertible — using Euclidean fallback")
-        dist = float(np.linalg.norm(test_point - mu))
-
-    return dist
-
+    d2 = float(z_test @ cov_inv @ z_test)
+    if not np.isfinite(d2):
+        logger.warning("Non-finite Mahalanobis value - using Euclidean fallback")
+        return float(np.linalg.norm(z_test))
+    return float(np.sqrt(max(d2, 0.0)))
 
 def _shrunk_mahalanobis(ref: np.ndarray, point: np.ndarray) -> float:
     """Mahalanobis distance with a Ledoit-Wolf shrunk covariance on standardized data."""
@@ -146,39 +170,57 @@ def _shrunk_mahalanobis(ref: np.ndarray, point: np.ndarray) -> float:
 
 def _calibrated_mahalanobis(
     X_train: np.ndarray, X_test: np.ndarray
-) -> tuple[float, float | None]:
+) -> tuple[float, float | None, float | None, float | None]:
     """
-    Shrinkage Mahalanobis distance of the test centroid, plus an EMPIRICAL p-value.
+    Shrinkage Mahalanobis distance of the test centroid plus DYNAMIC thresholds.
 
-    The raw distance has no fixed scale with 40 features and ~25-75 samples (the old
-    fixed thresholds 3/5 were always exceeded).  Instead, the distance is compared with
-    a leave-one-year-out null: each training year's distance to the rest of the
-    training years.  p = (1 + #{null >= d}) / (n + 1).  Returns p=None if there are
-    fewer than MIN_DRIFT_REF_YEARS reference years (cannot calibrate).
+    The raw distance has no fixed scale with ~40 features and ~25-75 samples, so
+    fixed cut-offs (3.0 / 5.0) are meaningless.  Instead each historical year's
+    distance to the remaining historical years (leave-one-out) forms the null
+    distribution; its 95th and 99th percentiles are the MODERATE / HIGH thresholds.
+
+    Returns (distance, empirical_p_value, threshold_moderate, threshold_high).
+    Thresholds / p-value are None if fewer than MIN_DRIFT_REF_YEARS reference rows.
     """
     train_means = np.nanmean(X_train, axis=0)
-    X_tr = np.where(np.isnan(X_train), train_means, X_train)
-    X_te = np.where(np.isnan(X_test), train_means, X_test)
+    train_means = np.where(np.isfinite(train_means), train_means, 0.0)
+    X_tr = np.where(np.isfinite(X_train), X_train, train_means)
+    X_te = np.where(np.isfinite(X_test), X_test, train_means)
 
     dist = _shrunk_mahalanobis(X_tr, X_te.mean(axis=0))
     n = X_tr.shape[0]
     if n < MIN_DRIFT_REF_YEARS:
-        return dist, None
+        return dist, None, None, None
 
     null = np.array([
         _shrunk_mahalanobis(np.delete(X_tr, i, axis=0), X_tr[i]) for i in range(n)
     ])
     p_value = float((1 + np.sum(null >= dist)) / (n + 1))
-    return dist, p_value
+    thr_mod = float(np.percentile(null, DRIFT_PERCENTILE_MODERATE))
+    thr_high = float(np.percentile(null, DRIFT_PERCENTILE_HIGH))
+    return dist, p_value, thr_mod, thr_high
 
 
-def _pvalue_severity(p_value: float | None) -> str:
-    """Map an empirical drift p-value to a severity label."""
-    if p_value is None:
+def _distance_severity(
+    dist: float, thr_mod: float | None, thr_high: float | None
+) -> str:
+    """Map a Mahalanobis distance to severity using the dynamic percentile thresholds."""
+    if thr_mod is None or thr_high is None:
         return "LOW"  # not enough reference years to judge
-    if p_value <= DRIFT_P_HIGH:
+    if dist >= thr_high:
         return "HIGH"
-    if p_value <= DRIFT_P_MODERATE:
+    if dist >= thr_mod:
+        return "MODERATE"
+    return "LOW"
+
+
+def _percentile_severity(percentile: float, calibrated: bool) -> str:
+    """Map the PCA reconstruction percentile (0-100) to severity (same 95 / 99 cut-offs)."""
+    if not calibrated:
+        return "LOW"
+    if percentile >= DRIFT_PERCENTILE_HIGH:
+        return "HIGH"
+    if percentile >= DRIFT_PERCENTILE_MODERATE:
         return "MODERATE"
     return "LOW"
 
@@ -187,51 +229,53 @@ def _pvalue_severity(p_value: float | None) -> str:
 # PCA reconstruction error
 # ---------------------------------------------------------------------------
 
+def _pca_fit_errors(
+    X_fit: np.ndarray, X_eval: np.ndarray
+) -> np.ndarray:
+    """Fit scaler + truncated PCA on X_fit; return per-row reconstruction MSE of X_eval."""
+    scaler = StandardScaler()
+    Xf = scaler.fit_transform(X_fit)
+    Xe = scaler.transform(X_eval)
+
+    n_components = min(Xf.shape[0], Xf.shape[1])
+    full = PCA(n_components=n_components).fit(Xf)
+    cumvar = np.cumsum(full.explained_variance_ratio_)
+    n_keep = min(int(np.searchsorted(cumvar, PCA_VARIANCE_RETAINED) + 1), n_components)
+
+    pca = PCA(n_components=n_keep).fit(Xf)
+    recon = pca.inverse_transform(pca.transform(Xe))
+    return np.mean((Xe - recon) ** 2, axis=1)
+
+
 def _pca_reconstruction_error(
     X_train: np.ndarray,
     X_test: np.ndarray,
 ) -> tuple[float, float]:
     """
-    Fit PCA on training data, reconstruct test data, measure residual.
+    PCA reconstruction error of the test sample and its percentile rank (0-100)
+    within the historical baseline.
 
-    Returns (mean_squared_error, percentile_rank).
-    The percentile rank indicates where the test error falls relative
-    to the distribution of training reconstruction errors.
+    The baseline is a LEAVE-ONE-OUT distribution (each historical year is
+    reconstructed by a PCA fitted on the other years).  In-sample training errors
+    are optimistically small, so the test error would always land at the 100th
+    percentile.  The percentile is then compared with the same dynamic 95th / 99th
+    cut-offs used for the Mahalanobis distance.
     """
-    # Standardize
-    scaler = StandardScaler()
-    X_train_scaled = scaler.fit_transform(
-        np.where(np.isnan(X_train), np.nanmean(X_train, axis=0), X_train)
-    )
-    X_test_scaled = scaler.transform(
-        np.where(np.isnan(X_test), np.nanmean(X_train, axis=0), X_test)
-    )
+    col_means = np.nanmean(X_train, axis=0)
+    col_means = np.where(np.isfinite(col_means), col_means, 0.0)
+    X_tr = np.where(np.isfinite(X_train), X_train, col_means)
+    X_te = np.where(np.isfinite(X_test), X_test, col_means)
 
-    # Fit PCA retaining specified variance
-    n_components = min(X_train_scaled.shape[0], X_train_scaled.shape[1])
-    pca = PCA(n_components=n_components)
-    pca.fit(X_train_scaled)
+    test_error = float(_pca_fit_errors(X_tr, X_te).mean())
 
-    # Find number of components for target variance
-    cumvar = np.cumsum(pca.explained_variance_ratio_)
-    n_keep = int(np.searchsorted(cumvar, PCA_VARIANCE_RETAINED) + 1)
-    n_keep = min(n_keep, n_components)
+    n = X_tr.shape[0]
+    if n < MIN_DRIFT_REF_YEARS:
+        return test_error, 0.0
 
-    # Reconstruct using truncated PCA
-    pca_trunc = PCA(n_components=n_keep)
-    X_train_proj = pca_trunc.fit_transform(X_train_scaled)
-    X_train_recon = pca_trunc.inverse_transform(X_train_proj)
-
-    X_test_proj = pca_trunc.transform(X_test_scaled)
-    X_test_recon = pca_trunc.inverse_transform(X_test_proj)
-
-    # MSE for each sample
-    train_errors = np.mean((X_train_scaled - X_train_recon) ** 2, axis=1)
-    test_error = float(np.mean((X_test_scaled - X_test_recon) ** 2))
-
-    # Percentile rank of test error in training error distribution
-    percentile = float(np.mean(train_errors <= test_error) * 100)
-
+    loo_errors = np.array([
+        _pca_fit_errors(np.delete(X_tr, i, axis=0), X_tr[i:i + 1])[0] for i in range(n)
+    ])
+    percentile = float(np.mean(loo_errors <= test_error) * 100)
     return test_error, percentile
 
 
